@@ -6,10 +6,10 @@
 	font-size: 18px;
 	
 	@include breakpoint(medium){
-		font-size: 19px;
+		font-size: 20px;
 	}
 	@include breakpoint(large){
-		font-size: 21px;
+		font-size: 24px;
 	}
 }
 
@@ -72,7 +72,7 @@ body {
 	max-width: 1280px;
 	
 	@include breakpoint(medium){
-		width: 80%;
+		width: 85%;
 	}
 	@include breakpoint(large){
 		width: 70%;
@@ -237,10 +237,14 @@ body {
 		text-align: center;
 		margin-bottom: 0px;
 		min-height: 280px;
+		padding-left: 30px;
+		padding-right: 30px;
 		
 		@include breakpoint(medium){
 			@include grid-column(6);
 			min-height: 300px;
+			padding-left: 30px;
+			padding-right: 30px;
 		}
 		
 		img {
