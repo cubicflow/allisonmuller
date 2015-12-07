@@ -9,7 +9,7 @@
 		font-size: 19px;
 	}
 	@include breakpoint(large){
-		font-size: 20px;
+		font-size: 21px;
 	}
 }
 
@@ -54,6 +54,7 @@
 body {
 	font-family: $font-serif-regular;
 	@extend .font-size-regular;
+	text-align: center;
 }
 
 .container {
@@ -63,9 +64,19 @@ body {
 	position: relative;
 }
 
-.content {
-	@extend .container;
-	text-align: center;
+.container--thin {
+	width: 90%;
+	margin: 0px auto;
+	position: relative;
+	margin: 0px auto;
+	max-width: 1280px;
+	
+	@include breakpoint(medium){
+		width: 80%;
+	}
+	@include breakpoint(large){
+		width: 70%;
+	}
 }
 
 .navbar {
@@ -145,6 +156,36 @@ body {
 		}
 	}
 }
+
+
+
+.profile {
+	@extend .container--thin;
+	
+	&__img {
+		max-width: 300px;
+		width: 60%;
+		margin: 0px auto;
+		display: block;
+		margin-top: 40px;
+		margin-bottom: 50px;
+	}
+	
+	
+}
+
+
+.downarrow {
+	img {
+		display: block;
+		margin: 50px auto 20px auto;
+	}
+	
+	@include breakpoint(medium) {
+		margin: 60px auto 30px auto;
+	}
+}
+
 .off-canvas-content {
 	overflow: auto;
 	min-height: 100%;
@@ -181,12 +222,12 @@ body {
 	color: $white;
 	width: 100vw;
 	background-color: $body-background-dark;
-	padding: 50px 0px 40px 0px;
+	padding: 60px 0px 40px 0px;
 	margin-top: 40px;
 	text-align: center;
 	
 	&__row {
-		margin-top: 40px;
+		margin-top: 50px;
 		@include grid-row;
 	}
 	
@@ -194,17 +235,19 @@ body {
 		@include grid-column(12);
 		@extend .font-size-small;
 		text-align: center;
-		margin-bottom: 40px;
+		margin-bottom: 0px;
+		min-height: 280px;
 		
 		@include breakpoint(medium){
 			@include grid-column(6);
+			min-height: 300px;
 		}
 		
 		img {
 			max-width: 250px;
 			display: block;
 			margin: 0px auto;
-			margin-bottom: 40px;
+			margin-bottom: 50px;
 			margin-top: 40px;
 		}
 	}
