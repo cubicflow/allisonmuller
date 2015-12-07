@@ -13,7 +13,7 @@ include:      [
                 '_pages'
               ]
 sass:
-    sass_dir: '../assets/_sass'
+    sass_dir: 'assets/scss'
 
 # exclude from the conversion and from sitemap.xml
 exclude:      [
@@ -32,7 +32,7 @@ exclude:      [
                 'assets/vendor/phpmailer/**/*.html',
                 'assets/vendor/what-input/*.html',
                 'assets/vendor/*.scss', 
-                'assets/scss/*.scss', 
+#                'assets/scss/*.scss', 
                 'assets/js/app.js'
               ]
 # keep_files:  ['.git','.svn']
