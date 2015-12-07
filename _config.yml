@@ -31,7 +31,7 @@ exclude:      [
                 'assets/vendor/foundation-icon-fonts/*.html',
                 'assets/vendor/phpmailer/**/*.html',
                 'assets/vendor/what-input/*.html',
-                'assets/vendor/*.scss', 
+#                'assets/vendor/*.scss', 
 #                'assets/scss/*.scss', 
                 'assets/js/app.js'
               ]
