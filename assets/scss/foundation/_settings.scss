@@ -200,20 +200,21 @@
 // Global
 // ------
 
- $global-width: rem-calc(14400);
+$global-width: rem-calc(14400);
 // $global-font-size: 100%;
-// $global-lineheight: 1.5;
- $primary-color: #586BA4;
- $secondary-color: #E09F7D;
+$global-lineheight: 1.5;
+$primary-color: #586BA4;
+$secondary-color: #E09F7D;
 // $success-color: #3adb76;
 // $warning-color: #ffae00;
 // $alert-color: #ec5840;
 // $light-gray: #f3f3f3;
-// $medium-gray: #cacaca;
+$medium-gray: #A1A2A7;
 // $dark-gray: #8a8a8a;
 // $black: #0a0a0a;
-// $white: #fefefe;
-// $body-background: $white;
+ $white: #FFF;
+$body-background: #f5f4f0;
+$body-background-dark: #4E4D5C;
 // $body-font-color: $black;
 // $body-font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 // $body-antialiased: true;
@@ -420,7 +421,7 @@
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
  $header-sizes: (
    small: (
-     'h1': 28,
+     'h1': 26,
      'h2': 20,
      'h3': 19,
      'h4': 18,
@@ -435,10 +436,18 @@
      'h5': 20,
      'h6': 16,
    ),
+	 large: (
+     'h1': 40,
+     'h2': 40,
+     'h3': 31,
+     'h4': 25,
+     'h5': 20,
+     'h6': 16,
+   ),
  );
  $header-color: $primary-color;
 // $header-lineheight: 1.4;
-// $header-margin-bottom: 0.5rem;
+ $header-margin-bottom: 0.7rem;
 // $header-text-rendering: optimizeLegibility;
 // $small-font-size: 80%;
 // $header-small-font-color: $medium-gray;

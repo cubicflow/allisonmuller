@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.3 (16618) - http://www.bohemiancoding.com/sketch -->
+    <title>pencil</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="M" sketch:type="MSArtboardGroup" transform="translate(-336.000000, -858.000000)">
+            <g id="credentials" sketch:type="MSLayerGroup" transform="translate(0.000000, 673.000000)">
+                <rect id="Rectangle-5" fill="#4E4D5C" sketch:type="MSShapeGroup" x="0" y="0" width="760" height="1189"></rect>
+                <path d="M408,185 C403.582,185 399.582,186.791959 396.686,189.687893 L342.688,243.686666 L336,273 L365.312,266.312152 L419.312,212.313379 C422.208,209.419445 424,205.419536 424,201.001636 C424,192.165837 416.836,185 408,185 L408,185 Z M362,262.578237 L348,265.852162 L348,261.000273 L343.148,261.000273 L346.422,246.998591 L362,246.998591 L362,262.578237 L362,262.578237 Z M366,259.970296 L366,244.998636 C366,243.894661 365.104,243.000682 364,243.000682 L349.028,243.000682 L392.102,199.929661 L409.07,216.901275 L366,259.970296 L366,259.970296 Z M416.484,209.485444 L411.898,214.073339 L394.93,197.101725 L399.516,192.517829 C399.516,192.517829 402.778,189.001909 408,189.001909 C414.63,189.001909 420,194.373787 420,201.001636 C420,204.313561 418.656,207.313493 416.484,209.485444 L416.484,209.485444 Z" id="pencil" fill="#85B4D2" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

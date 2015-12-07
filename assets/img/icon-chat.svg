@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.3 (16618) - http://www.bohemiancoding.com/sketch -->
+    <title>chatbubble-dots</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="M" sketch:type="MSArtboardGroup" transform="translate(-336.000000, -1115.000000)">
+            <g id="credentials" sketch:type="MSLayerGroup" transform="translate(0.000000, 673.000000)">
+                <rect id="Rectangle-5" fill="#4E4D5C" sketch:type="MSShapeGroup" x="0" y="0" width="760" height="1189"></rect>
+                <path d="M360,476 C356.688,476 354,478.688 354,482 C354,485.314 356.688,488 360,488 C363.312,488 366,485.314 366,482 C366,478.688 363.312,476 360,476 M380,476 C376.688,476 374,478.688 374,482 C374,485.314 376.688,488 380,488 C383.312,488 386,485.314 386,482 C386,478.688 383.312,476 380,476 M380,446 C355.7,446 336,462.122 336,482 C336,491.754 340.758,500.586 348.454,507.066 L344,526 L367.656,516.54 C371.576,517.472 375.712,518 380,518 C404.3,518 424,501.884 424,482 C424,462.122 404.3,446 380,446 M380,514 C376.188,514 372.348,513.544 368.586,512.646 C368.28,512.574 367.966,512.538 367.656,512.538 C367.15,512.538 366.644,512.632 366.172,512.824 L349.656,519.432 L352.348,507.982 C352.696,506.516 352.184,504.978 351.032,504.01 C343.918,498.018 340,490.202 340,482 C340,464.358 357.946,450 380,450 C402.056,450 420,464.358 420,482 C420,499.646 402.056,514 380,514 M400,476 C396.688,476 394,478.688 394,482 C394,485.314 396.688,488 400,488 C403.312,488 406,485.314 406,482 C406,478.688 403.312,476 400,476" id="chatbubble-dots" fill="#85B4D2" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

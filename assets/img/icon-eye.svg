@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.3 (16618) - http://www.bohemiancoding.com/sketch -->
+    <title>eye</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="M" sketch:type="MSArtboardGroup" transform="translate(-336.000000, -1605.000000)">
+            <g id="credentials" sketch:type="MSLayerGroup" transform="translate(0.000000, 673.000000)">
+                <rect id="Rectangle-5" fill="#4E4D5C" sketch:type="MSShapeGroup" x="0" y="0" width="760" height="1189"></rect>
+                <path d="M380,970 C376.688,970 374,972.688 374,976 C374,979.314 376.688,982 380,982 C383.312,982 386,979.314 386,976 C386,972.688 383.312,970 380,970 M380,956.002 C368.954,956.002 360,964.956 360,976 C360,987.046 368.954,996 380,996 C391.046,996 400,987.046 400,976 C400,964.956 391.046,956.002 380,956.002 M380,992 C371.164,992 364,984.838 364,976 C364,967.164 371.164,960 380,960 C388.836,960 396,967.164 396,976 C396,984.838 388.836,992 380,992 M380,948 C355.7,948 336,968 336,976 C336,984 355.7,1004 380,1004 C404.3,1004 424,984 424,976 C424,968 404.3,948 380,948 M380,1000 C357.91,1000 340,982.858 340,976 C340,969.142 357.91,952 380,952 C402.092,952 420,969.142 420,976 C420,982.858 402.092,1000 380,1000" id="eye" fill="#85B4D2" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+// --------------------------------------------------
+// Fonts
+// --------------------------------------------------
+
+@font-face {
+    font-family: BanderaPro;
+    src: url(../font/BanderaPro.otf);
+}
+@font-face {
+    font-family: BanderaPro-Bold;
+    src: url(../font/BanderaProMedium.otf);
+}
+@font-face {
+    font-family: Frontage-Bold;
+    src: url(../font/Frontage-Bold.otf);
+}
+
+$font-serif-regular:  'BanderaPro';
+$font-serif-bold: 'BanderaPro-Bold';
+$font-sans-bold: 'Frontage-Bold';

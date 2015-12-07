@@ -1,6 +1,60 @@
 // --------------------------------------------------
+// Font Classes
+// --------------------------------------------------
+
+.font-size-large {
+	font-size: 18px;
+	
+	@include breakpoint(medium){
+		font-size: 19px;
+	}
+	@include breakpoint(large){
+		font-size: 20px;
+	}
+}
+
+.font-size-regular {
+	font-size: 17px;
+	
+	@include breakpoint(medium){
+		font-size: 18px;
+	}
+	@include breakpoint(large){
+		font-size: 19px;
+	}
+}
+
+
+.font-size-small {
+	font-size: 14px;
+	
+	@include breakpoint(medium){
+		font-size: 16px;
+	}
+	@include breakpoint(large){
+		font-size: 17px;
+	}
+}
+
+.font-size-xsmall {
+	font-size: 10px;
+	
+	@include breakpoint(medium){
+		font-size: 12px;
+	}
+	@include breakpoint(large){
+		font-size: 14px;
+	}
+}
+
+
+// --------------------------------------------------
 // Layout default
 // --------------------------------------------------
+body {
+	font-family: $font-serif-regular;
+	@extend .font-size-regular;
+}
 
 .container {
 	max-width: 1440px;
@@ -14,7 +68,6 @@
 	text-align: center;
 }
 
-
 .navbar {
 	
 	@extend .container;
@@ -22,13 +75,28 @@
 	height: 50px;
 	overflow: auto;
 	
+	@include breakpoint(medium) {
+		height: 60px;
+	}
+	
 	
 	&__logo {
 		position: absolute;
 		left: 0px;
+		opacity: 0.7;
+		transition: all 0.3s;
+		
+		&:hover {
+			opacity: 1;
+		}
 		
 		img {
 			width: 36px;
+			
+			@include breakpoint(medium) {
+				width: 50px;
+				margin-top: 10px;
+			}
 		}
 	}
 	
@@ -36,12 +104,20 @@
 	&__expand {
 		position: absolute;
 		right: 0px;
+		top: 5px;
 		@include hide-for(medium);
+		opacity: 0.7;
+		transition: all 0.3s cubic-bezier(.8, .01, .56, .99);
+		
+		&:hover {
+			opacity: 1;
+			transform: rotate(180deg);
+		}
 	}
 	
 	&__list {
 		
-		margin: 5px 0px 0px 0px;
+		margin: 17px 0px 0px 0px;
 		padding: 0px;
 		width: 80%;
 		@include show-for(medium);
@@ -53,6 +129,19 @@
 			list-style-type: none;
 			padding: 0px;
 			margin: 0px;
+			
+			a {
+				font-family: $font-sans-bold;
+				font-size: 13px;
+				color: $medium-gray;
+				
+				&:hover {
+					color: $primary-color;
+				}
+				&.active {
+					color: $primary-color;
+				}
+			}
 		}
 	}
 }
@@ -73,13 +162,50 @@
 	width: 60%;
 	margin: 0px auto;
 	display: block;
-	margin-top: 30px;
-	margin-bottom: 40px;
+	margin-top: 40px;
+	margin-bottom: 50px;
 }
 
 
 .subheading {
 	display: block;
 	color: $secondary-color;
+	font-family: $font-sans-bold;
+	@extend .font-size-xsmall;
 	margin-bottom: 40px;
+}
+
+
+.services-grid {
+	@extend .font-size-large;
+	color: $white;
+	width: 100vw;
+	background-color: $body-background-dark;
+	padding: 50px 0px 40px 0px;
+	margin-top: 40px;
+	text-align: center;
+	
+	&__row {
+		margin-top: 40px;
+		@include grid-row;
+	}
+	
+	&__col {
+		@include grid-column(12);
+		@extend .font-size-small;
+		text-align: center;
+		margin-bottom: 40px;
+		
+		@include breakpoint(medium){
+			@include grid-column(6);
+		}
+		
+		img {
+			max-width: 250px;
+			display: block;
+			margin: 0px auto;
+			margin-bottom: 40px;
+			margin-top: 40px;
+		}
+	}
 }
