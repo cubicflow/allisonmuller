@@ -1,7 +1,7 @@
 ---
 permalink: /kitchen-sink/
-layout: page
 title: Kitchen Sink
+layout: default
 ---
 
 ## Accordion 

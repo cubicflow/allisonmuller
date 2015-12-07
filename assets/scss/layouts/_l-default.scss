@@ -2,27 +2,84 @@
 // Layout default
 // --------------------------------------------------
 
-header {
-  @include grid-row;
-  background-color: lightgrey;
-  
-  nav {
-    @include grid-column;
-  }
+.container {
+	max-width: 1440px;
+	width: 90%;
+	margin: 0px auto;
+	position: relative;
 }
 
-main {
-  @include grid-row;
-  
-  //other elements
-  //@include grid-column;
+.content {
+	@extend .container;
+	text-align: center;
 }
 
-footer {
-  @include grid-row;
-  background-color: lightgrey;
-  
-  nav {
-    @include grid-column;
-  }
+
+.navbar {
+	
+	@extend .container;
+	margin-top: 10px;
+	height: 50px;
+	overflow: auto;
+	
+	
+	&__logo {
+		position: absolute;
+		left: 0px;
+		
+		img {
+			width: 36px;
+		}
+	}
+	
+	
+	&__expand {
+		position: absolute;
+		right: 0px;
+		@include hide-for(medium);
+	}
+	
+	&__list {
+		
+		margin: 5px 0px 0px 0px;
+		padding: 0px;
+		width: 80%;
+		@include show-for(medium);
+		@include grid-row;
+		
+		li {
+			@include grid-column(3);
+			text-align: center;
+			list-style-type: none;
+			padding: 0px;
+			margin: 0px;
+		}
+	}
+}
+.off-canvas-content {
+	overflow: auto;
+	min-height: 100%;
+}
+.off-canvas {
+	height: 100%;
+	position: fixed;
+}
+
+
+
+
+.profile-img {
+	max-width: 300px;
+	width: 60%;
+	margin: 0px auto;
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+
+.subheading {
+	display: block;
+	color: $secondary-color;
+	margin-bottom: 40px;
 }

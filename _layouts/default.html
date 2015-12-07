@@ -1,8 +1,24 @@
-{% include header.html %}
 
-<main>
-  <small><i>main</i></small>
-  {{ content }}
-</main>
-       
-{% include footer.html %}
+<!doctype html>
+<html lang="">
+<head>
+	<meta charset="utf-8">
+	<title>{{ site.title }}</title>
+
+	{% include meta.html %}
+
+</head>
+	
+<body>
+	
+	{% include components/nav.html %}
+
+	<main class="content">
+		{{ content }}
+	</main>
+
+	
+{% include foot.html %} 
+	
+</body>
+</html>

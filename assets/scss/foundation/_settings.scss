@@ -83,14 +83,14 @@
 // Breakpoints
 // -----------
 
-// $breakpoints: (
-//   small: 0,
-//   medium: 512px,
-//   large: 1024px,
-//   xlarge: 1200px,
-//   xxlarge: 1440px,
-// );
-// $breakpoint-classes: (small medium large);
+ $breakpoints: (
+   small: 0,
+   medium: 600px,
+   large: 1025px,
+   xlarge: 1200px,
+   xxlarge: 1440px,
+ );
+ $breakpoint-classes: (small medium large);
 
 // Button
 // ------
@@ -200,11 +200,11 @@
 // Global
 // ------
 
-// $global-width: rem-calc(1200);
+ $global-width: rem-calc(14400);
 // $global-font-size: 100%;
 // $global-lineheight: 1.5;
-// $primary-color: #2199e8;
-// $secondary-color: #777;
+ $primary-color: #586BA4;
+ $secondary-color: #E09F7D;
 // $success-color: #3adb76;
 // $warning-color: #ffae00;
 // $alert-color: #ec5840;
@@ -263,11 +263,11 @@
 // ----------
 
 // $offcanvas-size: 250px;
-// $offcanvas-background: $white;
+ $offcanvas-background: $white;
 // $offcanvas-zindex: -1;
 // $offcanvas-transition-length: 0.5s;
 // $offcanvas-transition-timing: ease;
-// $offcanvas-exit-background: rgba($white, 0.25);
+ $offcanvas-exit-background: rgba($white, 0.25);
 // $maincontent-class: 'main-content';
 // $maincontent-shadow: 0 0 10px rgba($black, 0.5);
 
@@ -418,25 +418,25 @@
 // $header-font-weight: $global-weight-normal;
 // $header-font-style: normal;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
-// $header-sizes: (
-//   small: (
-//     'h1': 24,
-//     'h2': 20,
-//     'h3': 19,
-//     'h4': 18,
-//     'h5': 17,
-//     'h6': 16,
-//   ),
-//   medium: (
-//     'h1': 48,
-//     'h2': 40,
-//     'h3': 31,
-//     'h4': 25,
-//     'h5': 20,
-//     'h6': 16,
-//   ),
-// );
-// $header-color: inherit;
+ $header-sizes: (
+   small: (
+     'h1': 28,
+     'h2': 20,
+     'h3': 19,
+     'h4': 18,
+     'h5': 17,
+     'h6': 16,
+   ),
+   medium: (
+     'h1': 36,
+     'h2': 40,
+     'h3': 31,
+     'h4': 25,
+     'h5': 20,
+     'h6': 16,
+   ),
+ );
+ $header-color: $primary-color;
 // $header-lineheight: 1.4;
 // $header-margin-bottom: 0.5rem;
 // $header-text-rendering: optimizeLegibility;

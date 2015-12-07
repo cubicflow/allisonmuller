@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Older post
 categories: jekyll update
 ---

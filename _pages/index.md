@@ -1,7 +1,15 @@
 ---
 permalink: /
-layout: home
 title: Homepage
+layout: default
 ---
 
-Welcome to your new Jekyll site.
+<img class="profile-img" data-interchange="
+[/assets/img/profile.jpg, small], [/assets/img/profile@2x.jpg, retina]
+">
+
+<h1 class="editable">Acri Muller Consulting</h1>
+<span class="subheading editable">Allison Acri Muller, Pharm. D, D.ABAT</span>
+
+
+Dr. Allison Muller is a board-certified toxicologist and a Pennsylvania-registered pharmacist, with over 20 years’ experience at The Children’s Hospital of Philadelphia and the University of Pennsylvania in teaching, writing, and clinical practice.

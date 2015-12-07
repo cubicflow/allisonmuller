@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.3 (16618) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-header</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="L" sketch:type="MSArtboardGroup" transform="translate(-30.000000, -12.000000)" fill="#586BA4">
+            <g id="header" sketch:type="MSLayerGroup" transform="translate(30.000000, 12.000000)">
+                <path d="M40.09625,34.75 L31.09625,12.25 L30.25,12.25 L28.40375,12.25 L27.75,12.25 C27.75,15.35225 26.6755,18.2065 24.883,20.46675 L21.59625,12.25 L18.90375,12.25 L9.90375,34.75 L12.59625,34.75 L15.3045,27.9795 C18.5345,27.81625 21.5105,26.675 23.94275,24.84725 L27.90375,34.75 L30.59625,34.75 L25.9255,23.0735 C27.816,21.07875 29.19,18.593 29.835,15.828 L37.40375,34.75 L40.09625,34.75 Z M50,25 C50,38.80725 38.80725,50 25,50 C11.193,50 0,38.80725 0,25 C0,11.19275 11.193,0 25,0 C38.80725,0 50,11.19275 50,25 L50,25 Z M20.25,15.61575 L22.9745,22.4265 C21.1235,23.97025 18.84675,25.01775 16.349,25.36825 L20.25,15.61575 Z" id="logo-header" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
