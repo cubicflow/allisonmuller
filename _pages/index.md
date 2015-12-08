@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: Home
-layout: home
+layout: default
 ---
 
 <section class="services-grid">
