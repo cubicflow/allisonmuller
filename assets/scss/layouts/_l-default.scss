@@ -262,8 +262,12 @@ body {
 
 .pages-grid {
 	
+	background-color: #dedddd;
+	
 	&__row {
 		@include grid-row;
+		max-width: 1440px;
+		margin: 0px auto;
 	}
 	&__col {
 		color: $white;
