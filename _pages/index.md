@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: Acri Muller Consulting - Home
+title: Home
 layout: home
 ---
 

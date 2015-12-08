@@ -48,6 +48,11 @@
 }
 
 
+@mixin bg-dark(){
+	
+}
+
+
 // --------------------------------------------------
 // Layout default
 // --------------------------------------------------
@@ -83,11 +88,11 @@ body {
 	
 	@extend .container;
 	margin-top: 10px;
-	height: 50px;
+	height: 60px;
 	overflow: auto;
 	
 	@include breakpoint(medium) {
-		height: 60px;
+		height: 90px;
 	}
 	
 	
@@ -167,7 +172,7 @@ body {
 		width: 60%;
 		margin: 0px auto;
 		display: block;
-		margin-top: 40px;
+		margin-top: 20px;
 		margin-bottom: 50px;
 	}
 	
@@ -215,6 +220,7 @@ body {
 	@extend .font-size-xsmall;
 	margin-bottom: 40px;
 }
+
 
 
 .services-grid {
@@ -318,10 +324,10 @@ body {
 	}
 }
 
-
 .footer {
 	
 	font-size: 15px;
+	padding-bottom: 40px;
 	
 	&__logo {
 		display: block;
@@ -335,9 +341,26 @@ body {
 	
 	&__meta {
 		margin-top: 20px;
-		margin-bottom: 60px;
+		margin-bottom: 20px;
 		display: block;
 		font-family: $font-serif-regular;
 	}
 	
 }
+
+
+
+.about {
+	color: $white;
+	width: 100vw;
+	background-color: $body-background-dark;
+	padding: 60px 0px 40px 0px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+
+
+
+
+
