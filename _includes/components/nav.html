@@ -3,12 +3,18 @@
 		
 		<div class="off-canvas position-left" id="offCanvas" data-off-canvas>
 			
-			<ul class="menu vertical">
-			  <li><a href="/">Home</a></li>
-			  <li><a href="#">Services</a></li>
-			  <li><a href="/about/">About</a></li>
-			  <li><a href="/contact/">Contact</a></li>
-			</ul>
+			
+			<div class="mobile-menu">
+				
+				<img src="/assets/img/footer-logo.svg">
+				
+				<ul class="menu vertical">
+				  <li><a href="/">Home</a></li>
+				  <li><a href="/services">Services</a></li>
+				  <li><a href="/about/">About</a></li>
+				  <li><a href="/contact/">Contact</a></li>
+				</ul>
+			</div>
 			
 		</div>
 		
@@ -19,7 +25,7 @@
 			<div class="navbar__logo">
 				<a href="/"><img src="/assets/img/navigation-logo.svg"></a>
 			</div>
-			<a href="/contact/" class="navbar__contact">
+			<a href="/contact/" class="navbar__contact {% if page.url == '/contact/' %}active{% endif %}">
 				<img data-toggle="offCanvas" src="/assets/img/navigation-contact.svg">
 				<span class="navbar__contact__label">Contact</span>
 			</a>
@@ -27,9 +33,10 @@
 				<img data-toggle="offCanvas" src="/assets/img/navigation-expand.svg">
 			</div>
 			<ul class="navbar__list">
-				<li><a href="/">Home</a></li>
-			  	<li><a href="#">Services</a></li>
-			  	<li><a href="/about">About</a></li>
+				
+				<li><a {% if page.url == '/' %} class="active" {% endif %} href="/">Home</a></li>
+				<li><a {% if page.url == '/services/' %} class="active" {% endif %} href="/services">Services</a></li>
+				<li><a {% if page.url == '/about/' %} class="active" {% endif %} href="/about">About</a></li>
 			</ul>
 		</nav>
 			

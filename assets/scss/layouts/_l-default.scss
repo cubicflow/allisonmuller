@@ -147,6 +147,11 @@ body {
 			opacity: 1;
 		}
 		
+		&.active {
+			color: $secondary-color;
+			opacity: 1;
+		}
+		
 		@include breakpoint(medium){
 			top: 16px;
 			right: 0px;
@@ -198,6 +203,38 @@ body {
 	}
 }
 
+
+
+.mobile-menu {
+	
+	position: fixed;
+	width: 100%;
+	
+	img {
+		margin-top: 40px;
+		margin-bottom: 40px;
+		width: 60%;
+	}
+	
+	.menu {
+		li {
+			a {
+				font-family: $font-serif-regular;
+				color: $primary-color;
+				outline: 0;
+				
+				@extend .font-size-regular;
+				
+				&:focus {
+					outline: 0;
+				}
+				&:hover {
+					color: $secondary-color;
+				}
+			}
+		}
+	}
+}
 
 
 .profile {
@@ -437,6 +474,7 @@ body {
 
 
 .contact {
+	
 	color: $white;
 	width: 100%;
 	background-color: $body-background-dark;
@@ -479,4 +517,83 @@ body {
 			transition: opacity 0.2s;
 		}
 	}
+}
+
+
+.emphasis {
+	color: $secondary-color;
+}
+
+
+.services {
+	
+	color: $white;
+	width: 100%;
+	background-color: $body-background-dark;
+	padding: 0px 0px 40px 0px;
+	margin-top: 40px;
+	text-align: center;
+	color: $white;
+	@extend .font-size-large;
+	
+	&__row {
+		@include grid-row;
+	}
+	&__col {
+		
+		@include grid-col(12);
+		margin-bottom: 60px;
+		
+		&:last-child {
+			border-top: 1px solid $secondary-color;
+		}
+			
+		@include breakpoint(medium){
+			@include grid-col(6);
+			
+			&:first-child {
+				padding-left: 0px;
+				padding-right: 20px;
+			}
+			&:last-child {
+				padding-left: 20px;
+				padding-right: 0px;
+			}
+		}
+		@include breakpoint(large){
+			
+			&:first-child {
+				padding-left: 0px;
+				padding-right: 40px;
+			}
+			&:last-child {
+				border-top: 0px;
+				padding-left: 40px;
+				padding-right: 0px;
+			}
+		}
+		
+		img {
+			display: block;
+			margin: 60px auto 50px auto;
+		}
+		
+		&__body {
+			margin-top: 50px;
+			@extend .font-size-small;
+			text-align: left;
+		}
+	}
+}
+
+
+.page {
+	
+	ul {
+		
+		li {
+			margin-bottom: 15px;
+		}
+	}
+	
 }
