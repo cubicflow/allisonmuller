@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: Acri Muller Consulting - Home
-layout: default
+layout: home
 ---
 
 <section class="services-grid">
