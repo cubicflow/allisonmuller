@@ -256,3 +256,84 @@ body {
 		}
 	}
 }
+
+
+
+
+.pages-grid {
+	
+	&__row {
+		@include grid-row;
+	}
+	&__col {
+		color: $white;
+		font-family: $font-sans-bold;
+		font-size: 15px;
+		height: 180px;
+		line-height: 180px;
+		@include grid-column(6);
+		transition: all 0.3s;
+		
+		&:hover {
+			color: #FFF;
+		}
+		
+		
+		@include breakpoint(medium) {
+			@include grid-column(3);
+		}
+		
+		&--services {
+			background-color: #F69B81;
+			
+			&:hover {
+				background-color: #f0ab97;
+			}
+		}
+		&--about {
+			background-color: #BF2246;
+			
+			&:hover {
+				background-color: #de5d7a;
+			}
+		}
+		&--contact {
+			background-color: #90689C;
+			
+			&:hover {
+				background-color: #b990c6;
+			}
+		}
+		&--home {
+			background-color: #85B4D2;
+			
+			&:hover {
+				background-color: #add0e6;
+			}
+		}
+	}
+}
+
+
+.footer {
+	
+	font-size: 15px;
+	
+	&__logo {
+		display: block;
+		margin: 80px auto 40px auto;
+	}
+	
+	&__company-name {
+		display: block;
+		font-family: $font-serif-bold;
+	}
+	
+	&__meta {
+		margin-top: 20px;
+		margin-bottom: 60px;
+		display: block;
+		font-family: $font-serif-regular;
+	}
+	
+}

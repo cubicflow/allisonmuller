@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.3 (16618) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-footer</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="M" sketch:type="MSArtboardGroup" transform="translate(-344.000000, -2252.000000)" fill="#4E4D5C">
+            <g id="footer" sketch:type="MSLayerGroup" transform="translate(282.000000, 2252.000000)">
+                <path d="M119.7386,50.04 L106.7786,17.64 L105.56,17.64 L102.9014,17.64 L101.96,17.64 C101.96,22.10724 100.41272,26.21736 97.83152,29.47212 L93.0986,17.64 L89.2214,17.64 L76.2614,50.04 L80.1386,50.04 L84.03848,40.29048 C88.68968,40.0554 92.97512,38.412 96.47756,35.78004 L102.1814,50.04 L106.0586,50.04 L99.33272,33.22584 C102.05504,30.3534 104.0336,26.77392 104.9624,22.79232 L115.8614,50.04 L119.7386,50.04 Z M134,36 C134,55.88244 117.88244,72 98,72 C78.11792,72 62,55.88244 62,36 C62,16.11756 78.11792,0 98,0 C117.88244,0 134,16.11756 134,36 L134,36 Z M91.16,22.48668 L95.08328,32.29416 C92.41784,34.51716 89.13932,36.02556 85.54256,36.53028 L91.16,22.48668 Z" id="logo-footer" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
