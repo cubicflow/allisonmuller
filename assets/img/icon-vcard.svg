@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="44px" viewBox="0 0 32 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.3 (16618) - http://www.bohemiancoding.com/sketch -->
+    <title>download</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Contact" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="M" sketch:type="MSArtboardGroup" transform="translate(-364.000000, -611.000000)" fill="#85B4D2">
+            <g id="contact" sketch:type="MSLayerGroup" transform="translate(0.000000, 191.000000)">
+                <path d="M372,446 C371.448,446 371,446.447 371,447 C371,447.277 371.112,447.527 371.293,447.707 L379.293,455.707 C379.474,455.889 379.724,456 380,456 C380.276,456 380.526,455.889 380.707,455.707 L388.707,447.707 C388.888,447.527 389,447.277 389,447 C389,446.447 388.552,446 388,446 C387.724,446 387.474,446.112 387.293,446.293 L381,452.586 L381,421 C381,420.448 380.552,420 380,420 C379.448,420 379,420.448 379,421 L379,452.586 L372.707,446.293 C372.526,446.112 372.276,446 372,446 M395,434 L384,434 C383.448,434 383,434.448 383,435 C383,435.553 383.448,436 384,436 L394,436 L394,462 L366,462 L366,436 L376,436 C376.552,436 377,435.553 377,435 C377,434.448 376.552,434 376,434 L365,434 C364.448,434 364,434.448 364,435 L364,463 C364,463.553 364.448,464 365,464 L395,464 C395.552,464 396,463.553 396,463 L396,435 C396,434.448 395.552,434 395,434" id="download" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

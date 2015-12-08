@@ -394,6 +394,8 @@ body {
 	text-align: center;
 	color: $white;
 }
+
+
 .linkedin-icon {
 	
 	max-width: 400px;
@@ -427,3 +429,54 @@ body {
 	text-align: left;
 }
 
+
+
+
+
+
+
+
+.contact {
+	color: $white;
+	width: 100vw;
+	background-color: $body-background-dark;
+	padding: 60px 0px 40px 0px;
+	margin-top: 40px;
+	text-align: center;
+	color: $white;
+	
+	a {
+		color: $secondary-color;
+	}
+	
+	&__icon {
+		display: block;
+		margin: 20px auto 60px auto;
+	}
+	
+	&__info {
+		@extend .font-size-large;
+		margin-bottom: 40px;
+	}
+	
+	&__vcard {
+		max-width: 400px;
+		margin: 70px auto 70px auto;
+		color: $white;
+		display: block;
+		opacity: 0.7;
+		transition: opacity 0.2s;
+
+		img {
+			display: block;
+			margin: 20px auto 20px auto;
+			transition: opacity 0.2s;
+		}
+
+		&:hover {
+			opacity: 1;
+			color: $secondary-color;
+			transition: opacity 0.2s;
+		}
+	}
+}

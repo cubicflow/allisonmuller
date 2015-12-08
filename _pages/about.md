@@ -2,6 +2,7 @@
 permalink: /about/
 title: About
 layout: default
+linkedin_url: https://www.linkedin.com/in/acrimullerconsulting
 ---
 
 <section class="about">
@@ -19,7 +20,7 @@ Areas of concentration include toxicology, medication safety, oncology, and pedi
 		</div>
 		
 		
-		<a class="linkedin-icon">
+		<a href="{{ page.linkedin_url }}" class="linkedin-icon">
 			<img src="/assets/img/icon-linkedin.svg">
 			View Profile
 		</a>
