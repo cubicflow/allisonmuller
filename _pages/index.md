@@ -6,7 +6,7 @@ layout: home
 
 <section class="services-grid">
 	<div class="container--thin">
-	<div class="editable">An effective litigation consultant, expert witness, and medical writer who has the credentials and experience to:</div>
+	<div class="content-head editable">An effective litigation consultant, expert witness, and medical writer who has the credentials and experience to:</div>
 	
 	<div class="services-grid__row">
 		<div class="services-grid__col">

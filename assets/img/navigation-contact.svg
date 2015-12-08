@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="22px" height="16px" viewBox="0 0 22 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.3 (16618) - http://www.bohemiancoding.com/sketch -->
+    <title>envelope</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="About" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="L" sketch:type="MSArtboardGroup" transform="translate(-925.000000, -30.000000)" fill="#A1A2A7">
+            <g id="header" sketch:type="MSLayerGroup" transform="translate(30.000000, 12.000000)">
+                <path d="M915,18 L897,18 C895.8955,18 895,18.8955 895,20 L895,32 C895,33.1045 895.8955,34 897,34 L915,34 C916.1045,34 917,33.1045 917,32 L917,20 C917,18.8955 916.1045,18 915,18 M897,19 L915,19 C915.1175,19 915.2285,19.024 915.3335,19.0615 L906.6775,27.717 C906.4965,27.898 906.256,27.998 906,27.998 C905.744,27.998 905.5035,27.898 905.322,27.717 L896.667,19.0615 C896.7715,19.024 896.883,19 897,19 M896,32 L896,20 C896,19.9405 896.008,19.883 896.0175,19.826 L902.1915,26 L896.0175,32.174 C896.008,32.117 896,32.0595 896,32 M915,33 L897,33 C896.883,33 896.7715,32.976 896.667,32.939 L902.8985,26.707 L904.615,28.424 C904.998,28.8065 905.499,28.998 906,28.998 C906.5015,28.998 907.0025,28.8065 907.3845,28.424 L909.1015,26.707 L915.334,32.939 C915.2285,32.976 915.1175,33 915,33 M916,32 C916,32.0595 915.992,32.117 915.9825,32.174 L909.8085,26 L915.9825,19.826 C915.992,19.883 916,19.9405 916,20 L916,32" id="envelope" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
