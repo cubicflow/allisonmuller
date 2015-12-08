@@ -11,7 +11,7 @@ layout: default
 			<div class="services__col">
 				<img src="/assets/img/icon-litigation.svg">
 				
-				Litigation<br>Consultant
+				<div class="editable">Litigation<br>Consultant</div>
 				
 				<div class="services__col__body editable">
 				
@@ -34,8 +34,10 @@ layout: default
 			<div class="services__col">
 				<img src="/assets/img/icon-expert.svg">
 				
+				<div class="editable">
 				Expert Witness<br>
 				&amp;&nbsp;Medical&nbsp;Writer
+				</div>
 				
 				<div class="services__col__body editable">
 				
