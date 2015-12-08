@@ -2,7 +2,7 @@
 permalink: /contact/
 title: Contact
 layout: default
-linkedin_url: https://www.linkedin.com/in/acrimullerconsulting
+vcard_url: https://www.linkedin.com/in/acrimullerconsulting
 ---
 
 <section class="contact">
@@ -21,7 +21,7 @@ linkedin_url: https://www.linkedin.com/in/acrimullerconsulting
 		</div>
 		
 		
-		<a class="contact__vcard">
+		<a href="{{ vcard_url }}" class="contact__vcard">
 			<img src="/assets/img/icon-vcard.svg">
 			Download vCard
 		</a>
