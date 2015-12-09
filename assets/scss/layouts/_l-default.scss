@@ -626,6 +626,10 @@ body {
 	}
 }
 
+.toggle-btn {
+	@include hide-for(medium);
+}
+
 .toggle-link {
 	@include hide-for(medium);
 }
