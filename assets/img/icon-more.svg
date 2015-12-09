@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.3 (16618) - http://www.bohemiancoding.com/sketch -->
+    <title>plus</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Services" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Services-XS-collapsed" sketch:type="MSArtboardGroup" transform="translate(-178.000000, -544.000000)" fill="#FFFFFF">
+            <g id="services" sketch:type="MSLayerGroup" transform="translate(0.000000, 191.000000)">
+                <g id="Litigation-Consultant" transform="translate(20.000000, 50.000000)" sketch:type="MSShapeGroup">
+                    <path d="M191,324 L181,324 L181,314.002 C181,313.448 180.553,313 180,313 C179.447,313 179,313.448 179,314.002 L179,324 L169,324 C168.447,324 168,324.448 168,325 C168,325.554 168.447,326.002 169,326.002 L179,326.002 L179,336 C179,336.553 179.447,337 180,337 C180.553,337 181,336.553 181,336 L181,326.002 L191,326.002 C191.553,326.002 192,325.554 192,325 C192,324.448 191.553,324 191,324 M180,303 C167.85,303 158,312.851 158,325 C158,337.15 167.85,347 180,347 C192.15,347 202,337.15 202,325 C202,312.851 192.15,303 180,303 M180,345 C168.955,345 160,336.046 160,325 C160,313.955 168.955,305 180,305 C191.046,305 200,313.955 200,325 C200,336.046 191.046,345 180,345" id="plus"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

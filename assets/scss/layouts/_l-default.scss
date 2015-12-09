@@ -536,6 +536,10 @@ body {
 	color: $white;
 	@extend .font-size-large;
 	
+	a {
+		color: $secondary-color;
+	}
+	
 	&__row {
 		@include grid-row;
 	}
@@ -573,7 +577,7 @@ body {
 			}
 		}
 		
-		img {
+		&__icon {
 			display: block;
 			margin: 60px auto 50px auto;
 		}
@@ -586,6 +590,45 @@ body {
 	}
 }
 
+.toggle {
+	
+	max-height: 0px;
+	overflow: hidden;
+	transition: max-height 0.3s;
+	
+	@include breakpoint(medium){
+		max-height: 800px;
+		overflow: auto;
+	}
+	
+	&.active {
+		max-height: 800px;
+		overflow: auto;
+	}
+}
+.toggle-icon {
+	margin-top: 20px;
+	text-align: center;
+	opacity: 0.7;
+	@include hide-for(medium);
+	
+	img {
+		
+	}
+	
+	&.active {
+		opacity: 1;
+		transform: rotate(45deg);
+	}
+	
+	&:hover {
+		opacity: 1;
+	}
+}
+
+.toggle-link {
+	@include hide-for(medium);
+}
 
 .page {
 	
