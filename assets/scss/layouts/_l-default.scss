@@ -73,7 +73,6 @@ body {
 	width: 90%;
 	margin: 0px auto;
 	position: relative;
-	margin: 0px auto;
 	max-width: 1280px;
 	
 	@include breakpoint(medium){
@@ -237,6 +236,11 @@ body {
 }
 
 
+
+
+
+
+
 .profile {
 	@extend .container--thin;
 	
@@ -251,6 +255,36 @@ body {
 	
 	
 }
+
+.subheading {
+	display: block;
+	color: $secondary-color;
+	font-family: $font-sans-bold;
+	@extend .font-size-xsmall;
+	margin-bottom: 20px;
+	
+	&--second {
+		display: block;
+		margin-bottom: 50px;
+		font-size: 10px;
+		color: $medium-gray;
+		font-family: $font-sans-bold;
+	}
+}
+
+.profile-img {
+	max-width: 300px;
+	width: 60%;
+	margin: 0px auto;
+	display: block;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+
+
+
+
 
 
 .downarrow {
@@ -276,23 +310,6 @@ body {
 
 
 
-.profile-img {
-	max-width: 300px;
-	width: 60%;
-	margin: 0px auto;
-	display: block;
-	margin-top: 40px;
-	margin-bottom: 50px;
-}
-
-
-.subheading {
-	display: block;
-	color: $secondary-color;
-	font-family: $font-sans-bold;
-	@extend .font-size-xsmall;
-	margin-bottom: 40px;
-}
 
 
 
@@ -433,7 +450,7 @@ body {
 }
 
 
-.linkedin-icon {
+.social-icon {
 	
 	max-width: 400px;
 	margin: 70px auto 40px auto;
@@ -454,6 +471,7 @@ body {
 		transition: opacity 0.2s;
 	}
 }
+
 
 
 .content-head {
@@ -534,7 +552,29 @@ body {
 	margin-top: 40px;
 	text-align: center;
 	color: $white;
+	overflow: auto;
 	@extend .font-size-large;
+	
+	&__section {
+		
+		margin-bottom: 50px;
+		
+		&:last-child {
+			border-top: 1px solid $medium-gray;
+			margin-bottom: 20px;
+		}
+	}
+	
+	&__icon {
+		display: block;
+		margin: 60px auto 50px auto;
+	}
+
+	&__body {
+		margin-top: 50px;
+		@extend .font-size-small;
+		text-align: left;
+	}
 	
 	a {
 		color: $secondary-color;
@@ -546,11 +586,8 @@ body {
 	&__col {
 		
 		@include grid-col(12);
-		margin-bottom: 60px;
-		
-		&:last-child {
-			border-top: 1px solid $secondary-color;
-		}
+		margin-bottom: 0px;
+		overflow: hidden;
 			
 		@include breakpoint(medium){
 			@include grid-col(6);
@@ -576,17 +613,6 @@ body {
 				padding-right: 0px;
 			}
 		}
-		
-		&__icon {
-			display: block;
-			margin: 60px auto 50px auto;
-		}
-		
-		&__body {
-			margin-top: 50px;
-			@extend .font-size-small;
-			text-align: left;
-		}
 	}
 }
 
@@ -597,17 +623,16 @@ body {
 	transition: max-height 0.3s;
 	
 	@include breakpoint(medium){
-		max-height: 800px;
+		max-height: 2000px;
 		overflow: auto;
 	}
 	
 	&.active {
-		max-height: 800px;
+		max-height: 2000px;
 		overflow: auto;
 	}
 }
 .toggle-icon {
-	margin-top: 20px;
 	text-align: center;
 	opacity: 0.7;
 	@include hide-for(medium);
@@ -628,6 +653,8 @@ body {
 
 .toggle-btn {
 	@include hide-for(medium);
+	width: 40px;
+	margin: 20px auto 0px auto;
 }
 
 .toggle-link {
@@ -643,4 +670,25 @@ body {
 		}
 	}
 	
+}
+
+
+
+.call-to-action {
+	padding-top: 50px;
+	padding-bottom: 40px;
+	background-color: $body-background-darkest;
+	color: $white;
+	display: block;
+	transition: background-color 0.2s;
+	@extend .font-size-regular;
+	
+	&:hover {
+		color: $white;
+		background-color: #2a2b2f;
+	}
+	
+	img {
+		margin-top: 40px;
+	}
 }

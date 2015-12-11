@@ -2,7 +2,7 @@
 permalink: /contact/
 title: Contact
 layout: default
-vcard_url: https://www.linkedin.com/in/acrimullerconsulting
+vcard_path: /assets/allison-muller.vcf
 ---
 
 <section class="contact">
@@ -21,10 +21,12 @@ vcard_url: https://www.linkedin.com/in/acrimullerconsulting
 		</div>
 		
 		
-		<a href="{{ vcard_url }}" class="contact__vcard">
+		{% if page.vcard_path %}
+		<a href="{{ page.vcard_path }}" class="contact__vcard">
 			<img src="/assets/img/icon-vcard.svg">
 			Download vCard
 		</a>
+		{% endif %}
 		
 		
 	</div>
