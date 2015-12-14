@@ -351,6 +351,8 @@ body {
 
 
 
+
+
 .pages-grid {
 	
 	background-color: #dedddd;
@@ -598,7 +600,7 @@ body {
 		
 		@include grid-col(12);
 		margin-bottom: 0px;
-		overflow: hidden;
+		overflow: auto;
 			
 		@include breakpoint(medium){
 			@include grid-col(6);
