@@ -2,14 +2,17 @@
 permalink: /services/
 title: Services
 layout: default
+show_subnav: true
 ---
 
 <section class="services">
 	
+	{% if page.show_subnav %}
 	<div class="subnav">
 		<a href="#litigation">Litigation Consultant &amp; Expert Witness</a> 
 		<a href="#expert">Medical Writer</a>
 	</div>
+	{% endif %}
 	
 	<div class="container--thin">
 		
@@ -38,7 +41,7 @@ layout: default
 							</ul>
 						</div>
 
-						<div class="services__col">
+						<div class="services__col editable">
 
 							<p class="emphasis">Dr. Muller provides written reports and expert testimony in the following areas for both plaintiffs and defendants:</p>
 
