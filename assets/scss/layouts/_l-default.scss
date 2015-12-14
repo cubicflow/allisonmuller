@@ -629,6 +629,18 @@ body {
 	}
 }
 
+
+.list {
+	margin-left: 0px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	list-style-type: circle;
+	
+	li {
+		list-style-type: circle;
+	}
+}
+
 .toggle {
 	
 	max-height: 0px;
