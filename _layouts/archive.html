@@ -1,0 +1,57 @@
+
+<!doctype html>
+<html lang="">
+<head>
+
+	{% include meta.html %}
+
+</head>
+
+<body>
+
+	{% include components/nav.html %}
+
+	<main class="blog">
+
+		{% include components/blog-header.html %}
+
+    <div class="blog__content">
+      <div class="container">
+        <div class="blog__body">
+    		  {% for post in page.posts %}
+            <div class="blog__post">
+              <h2><a href="{{post.url}}">{{post.title}}</a></h2>
+              <span class="blog__post__date">{{post.date | date: '%B %d, %Y'}}</span>
+              {{post.content}}
+
+              <div class="blog__post__categories">
+                {% for category in post.categories %}
+                  <a href="/blog/{{category}}">{{category | capitalize }}</a>
+                {% endfor %}
+              </div>
+
+            </div>
+          {% endfor %}
+        </div>
+
+        <div class="blog__sidebar">
+          <div class="blog__sidebar__categories">
+            <span>Categories</span>
+            {% for category in site.categories %}
+              <a href="/blog/{{category | first}}">{{ category | first | capitalize }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+	</main>
+
+	{% include components/pages-grid.html %}
+
+	{% include components/footer.html %}
+
+	{% include foot.html %}
+
+</body>
+</html>

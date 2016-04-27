@@ -4,7 +4,7 @@
 
 .font-size-large {
 	font-size: 18px;
-	
+
 	@include breakpoint(medium){
 		font-size: 20px;
 	}
@@ -15,7 +15,7 @@
 
 .font-size-regular {
 	font-size: 17px;
-	
+
 	@include breakpoint(medium){
 		font-size: 18px;
 	}
@@ -27,7 +27,7 @@
 
 .font-size-small {
 	font-size: 14px;
-	
+
 	@include breakpoint(medium){
 		font-size: 16px;
 	}
@@ -38,7 +38,7 @@
 
 .font-size-xsmall {
 	font-size: 10px;
-	
+
 	@include breakpoint(medium){
 		font-size: 12px;
 	}
@@ -70,7 +70,7 @@ body {
 	margin: 0px auto;
 	position: relative;
 	max-width: 1280px;
-	
+
 	@include breakpoint(medium){
 		width: 85%;
 	}
@@ -80,38 +80,38 @@ body {
 }
 
 .navbar {
-	
+
 	@extend .container;
 	margin-top: 10px;
 	height: 60px;
 	overflow: auto;
-	
+
 	@include breakpoint(medium) {
 		height: 90px;
 	}
-	
-	
+
+
 	&__logo {
 		position: absolute;
 		left: 0px;
 		opacity: 0.7;
 		transition: all 0.3s;
-		
+
 		&:hover {
 			opacity: 1;
 		}
-		
+
 		img {
 			width: 36px;
-			
+
 			@include breakpoint(medium) {
 				width: 50px;
 				margin-top: 10px;
 			}
 		}
 	}
-	
-	
+
+
 	&__expand {
 		position: absolute;
 		right: 0px;
@@ -120,13 +120,13 @@ body {
 		opacity: 0.7;
 		transition: all 0.3s cubic-bezier(.8, .01, .56, .99);
 		cursor: pointer;
-		
+
 		&:hover {
 			opacity: 1;
 			transform: rotate(180deg);
 		}
 	}
-	
+
 	&__contact {
 		position: absolute;
 		right: 50px;
@@ -136,36 +136,36 @@ body {
 		color: $medium-gray;
 		transition: all 0.3s;
 		opacity: 0.7;
-		
+
 		&:hover {
 			color: $secondary-color;
 			opacity: 1;
 		}
-		
+
 		&.active {
 			color: $secondary-color;
 			opacity: 1;
 		}
-		
+
 		@include breakpoint(medium){
 			top: 18px;
 			right: 0px;
 		}
-		
+
 		img {
 			margin-right: 8px;
 		}
-		
+
 		&__label {
 			@include show-for(medium);
 			font-family: $font-sans-bold;
 			font-size: 13px;
-			
+
 		}
 	}
-	
+
 	&__list {
-		
+
 		@include show-for(medium);
 		@include grid-row;
 		width: 60%;
@@ -174,19 +174,19 @@ body {
 		padding: 0px;
 		text-align: center;
 		margin-left: 50px;
-		
+
 		li {
 			@include grid-column(4);
 			list-style-type: none;
 			padding: 0px;
 			margin: 0px;
-			
+
 			a {
 				font-family: $font-sans-bold;
 				font-size: 13px;
 				color: $medium-gray;
 				transition: all 0.3s;
-				
+
 				&:hover {
 					color: $secondary-color;
 				}
@@ -201,25 +201,25 @@ body {
 
 
 .mobile-menu {
-	
+
 	position: fixed;
 	width: 100%;
-	
+
 	img {
 		margin-top: 40px;
 		margin-bottom: 40px;
 		width: 60%;
 	}
-	
+
 	.menu {
 		li {
 			a {
 				font-family: $font-serif-regular;
 				color: $primary-color;
 				outline: 0;
-				
+
 				@extend .font-size-regular;
-				
+
 				&:focus {
 					outline: 0;
 				}
@@ -239,7 +239,7 @@ body {
 
 .profile {
 	@extend .container--thin;
-	
+
 	&__img {
 		max-width: 300px;
 		width: 60%;
@@ -248,8 +248,12 @@ body {
 		margin-top: 20px;
 		margin-bottom: 50px;
 	}
-	
-	
+
+	&__icon {
+		margin-bottom: 30px;
+		margin-top: 20px;
+	}
+
 }
 
 .subheading {
@@ -258,7 +262,7 @@ body {
 	font-family: $font-sans-bold;
 	@extend .font-size-xsmall;
 	margin-bottom: 20px;
-	
+
 	&--second {
 		display: block;
 		margin-bottom: 50px;
@@ -288,7 +292,7 @@ body {
 		display: block;
 		margin: 50px auto 20px auto;
 	}
-	
+
 	@include breakpoint(medium) {
 		margin: 60px auto 30px auto;
 	}
@@ -316,12 +320,12 @@ body {
 	padding: 60px 0px 40px 0px;
 	margin-top: 40px;
 	text-align: center;
-	
+
 	&__row {
 		margin-top: 50px;
 		@include grid-row;
 	}
-	
+
 	&__col {
 		@include grid-column(12);
 		@extend .font-size-small;
@@ -330,14 +334,14 @@ body {
 		min-height: 280px;
 		padding-left: 30px;
 		padding-right: 30px;
-		
+
 		@include breakpoint(medium){
 			@include grid-column(6);
 			min-height: 300px;
 			padding-left: 30px;
 			padding-right: 30px;
 		}
-		
+
 		img {
 			max-width: 250px;
 			display: block;
@@ -354,9 +358,9 @@ body {
 
 
 .pages-grid {
-	
+
 	background-color: #dedddd;
-	
+
 	&__row {
 		@include grid-row;
 		max-width: 1440px;
@@ -370,40 +374,40 @@ body {
 		line-height: 180px;
 		@include grid-column(6);
 		transition: all 0.3s;
-		
+
 		&:hover {
 			color: #FFF;
 		}
-		
-		
+
+
 		@include breakpoint(medium) {
 			@include grid-column(3);
 		}
-		
+
 		&--services {
 			background-color: #F69B81;
-			
+
 			&:hover {
 				background-color: #f0ab97;
 			}
 		}
 		&--about {
 			background-color: #BF2246;
-			
+
 			&:hover {
 				background-color: #de5d7a;
 			}
 		}
 		&--contact {
 			background-color: #90689C;
-			
+
 			&:hover {
 				background-color: #b990c6;
 			}
 		}
 		&--home {
 			background-color: #85B4D2;
-			
+
 			&:hover {
 				background-color: #add0e6;
 			}
@@ -412,27 +416,27 @@ body {
 }
 
 .footer {
-	
+
 	font-size: 15px;
 	padding-bottom: 40px;
-	
+
 	&__logo {
 		display: block;
 		margin: 80px auto 40px auto;
 	}
-	
+
 	&__company-name {
 		display: block;
 		font-family: $font-serif-bold;
 	}
-	
+
 	&__meta {
 		margin-top: 20px;
 		margin-bottom: 20px;
 		display: block;
 		font-family: $font-serif-regular;
 	}
-	
+
 }
 
 
@@ -443,12 +447,12 @@ body {
 	background-color: $primary-color;
 	font-size: 15px;
 	line-height: 50px;
-	
+
 	a {
 		color: $white;
 		padding: 0px 30px;
 		transition: color 0.2s;
-		
+
 		&:hover {
 			color: $secondary-color;
 		}
@@ -468,20 +472,20 @@ body {
 
 
 .social-icon {
-	
+
 	max-width: 400px;
 	margin: 70px auto 40px auto;
 	color: $secondary-color;
 	display: block;
 	opacity: 0.7;
 	transition: opacity 0.2s;
-	
+
 	img {
 		display: block;
 		margin: 20px auto 20px auto;
 		transition: opacity 0.2s;
 	}
-	
+
 	&:hover {
 		opacity: 1;
 		color: $secondary-color;
@@ -509,7 +513,7 @@ body {
 
 
 .contact {
-	
+
 	color: $white;
 	width: 100%;
 	background-color: $body-background-dark;
@@ -517,21 +521,21 @@ body {
 	margin-top: 40px;
 	text-align: center;
 	color: $white;
-	
+
 	a {
 		color: $secondary-color;
 	}
-	
+
 	&__icon {
 		display: block;
 		margin: 20px auto 60px auto;
 	}
-	
+
 	&__info {
 		@extend .font-size-large;
 		margin-bottom: 40px;
 	}
-	
+
 	&__vcard {
 		max-width: 400px;
 		margin: 70px auto 70px auto;
@@ -561,7 +565,7 @@ body {
 
 
 .services {
-	
+
 	color: $white;
 	width: 100%;
 	background-color: $body-background-dark;
@@ -571,17 +575,17 @@ body {
 	color: $white;
 	overflow: auto;
 	@extend .font-size-large;
-	
+
 	&__section {
-		
+
 		margin-bottom: 50px;
-		
+
 		&:last-child {
 			border-top: 1px solid $medium-gray;
 			margin-bottom: 20px;
 		}
 	}
-	
+
 	&__icon {
 		display: block;
 		margin: 60px auto 50px auto;
@@ -592,19 +596,19 @@ body {
 		@extend .font-size-small;
 		text-align: left;
 	}
-	
+
 	&__row {
 		@include grid-row;
 	}
 	&__col {
-		
+
 		@include grid-col(12);
 		margin-bottom: 0px;
 		overflow: auto;
-			
+
 		@include breakpoint(medium){
 			@include grid-col(6);
-			
+
 			&:first-child {
 				padding-left: 0px;
 				padding-right: 20px;
@@ -615,7 +619,7 @@ body {
 			}
 		}
 		@include breakpoint(large){
-			
+
 			&:first-child {
 				padding-left: 0px;
 				padding-right: 40px;
@@ -635,7 +639,7 @@ body {
 	padding-left: 20px;
 	margin-bottom: 20px;
 	list-style-type: circle;
-	
+
 	li {
 		margin-bottom: 17px;
 		list-style-type: circle;
@@ -643,16 +647,16 @@ body {
 }
 
 .toggle {
-	
+
 	max-height: 0px;
 	overflow: hidden;
 	transition: max-height 0.3s;
-	
+
 	@include breakpoint(medium){
 		max-height: 2000px;
 		overflow: auto;
 	}
-	
+
 	&.active {
 		max-height: 2000px;
 		overflow: auto;
@@ -662,16 +666,16 @@ body {
 	text-align: center;
 	opacity: 0.7;
 	@include hide-for(medium);
-	
+
 	img {
-		
+
 	}
-	
+
 	&.active {
 		opacity: 1;
 		transform: rotate(45deg);
 	}
-	
+
 	&:hover {
 		opacity: 1;
 	}
@@ -683,7 +687,7 @@ body {
 	margin: 20px auto 0px auto;
 	color: $secondary-color;
 	transition: color 0.2s;
-	
+
 	&:hover {
 		color: $white;
 	}
@@ -707,12 +711,12 @@ body {
 	display: block;
 	transition: background-color 0.2s;
 	@extend .font-size-regular;
-	
+
 	&:hover {
 		color: $primary-color-light;
 		background-color: #2a2b2f;
 	}
-	
+
 	img {
 		margin-top: 40px;
 	}

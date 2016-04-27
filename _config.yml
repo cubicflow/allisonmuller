@@ -1,7 +1,7 @@
 language:               "english"
 title:                  "Acri Muller Consulting"
 description:            "Litigation consultant, expert witness, and medical writer"
-subhead: 
+subhead:
 google-verification:    ""
 
 # source:      .
@@ -9,7 +9,7 @@ google-verification:    ""
 # plugins:     ./_plugins
 # layouts:     ./_layouts
 include:      [
-                '.htaccess', 
+                '.htaccess',
                 '_pages'
               ]
 sass:
@@ -18,25 +18,26 @@ sass:
 # exclude from the conversion and from sitemap.xml
 exclude:      [
                 'node_modules',
-                'npm-debug.log', 
-                'package.json', 
+                'npm-debug.log',
+                'package.json',
                 'bower.json',
-                'gulpfile.js', 
-                'Makefile', 
-                'composer.json', 
+                'gulpfile.js',
+                'Makefile',
+                'composer.json',
                 'composer.lock',
-                'README.md', 
-                'Gemfile', 
-                'Gemfile.lock', 
+                'README.md',
+                'Gemfile',
+                'Gemfile.lock',
                 'assets/vendor/**/*',
-#                'assets/vendor/*.scss', 
-#                'assets/scss/*.scss', 
+#                'assets/vendor/*.scss',
+#                'assets/scss/*.scss',
                 'assets/js/app.js'
               ]
 # keep_files:  ['.git','.svn']
 gems:         [
-                'jekyll-sitemap', 
-                'jekyll-paginate'
+                'jekyll-sitemap',
+                'jekyll-paginate',
+                'jekyll-archives'
               ]
 # timezone:    nil
 # encoding:    nil
@@ -49,6 +50,16 @@ gems:         [
 permalink: /blog/:year/:title/
 paginate_path: '/blog/page:num'
 paginate:      5
+
+jekyll-archives:
+  enabled: [categories]
+  layout: 'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/blog/:name/'
 
 # markdown:      kramdown
 # markdown_ext:  markdown,mkdown,mkdn,mkd,md
