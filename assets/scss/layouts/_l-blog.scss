@@ -6,21 +6,27 @@
 	}
 
 	&__container {
+		width: 90%;
+		margin: 0px auto;
+		max-width: 1280px;
 		position: relative;
-		overflow: auto;
 	}
 
 	&__body {
 		min-height: 800px;
 		text-align: left;
-		padding: 0px 30px 50px 30px;
+		padding: 0px 0px 50px 0px;
 		overflow: auto;
 
 		@include breakpoint(medium) {
-			margin-right: 200px;
+			width: 90%;
+			margin: 0px auto;
 		}
+
 		@include breakpoint(large) {
-			margin-right: 300px;
+			width: auto;
+			margin: 0px 310px 0px 0px;
+			padding: 0px 40px 50px 0px;
 		}
 
 	}
@@ -53,6 +59,7 @@
 				line-height: 37px;
 				border-radius: 18px;
 				margin-right: 15px;
+				margin-bottom: 15px;
 				color: $primary-color-light;
 				border: 1px solid $primary-color-light;
 				transition: all 0.3s;
@@ -73,22 +80,23 @@
 		position: absolute;
 		right: 0px;
 		top: 0px;
-		width: 200px;
-		padding: 30px;
+		width: 310px;
+		padding: 30px 0px 30px 30px;
 		height: 100%;
 		border-left: 1px solid fade-out(#586BA4, 0.6);
 		text-align: left;
-		@include show-for(medium);
+		@include show-for(large);
 
-		@include breakpoint(large) {
-			width: 300px;
+
+		&__title {
+			display: block;
+			margin-top: 30px;
+			margin-bottom: 20px;
+			color: #A1A2A7;
+			font-size: 19px;
 		}
 
 		&__categories {
-
-			margin-top: 30px;
-			color: #A1A2A7;
-			font-size: 19px;
 
 			span {
 				display: block;
@@ -100,6 +108,51 @@
 				margin-bottom: 10px;
 				display: block;
 				color: #E09F7D;
+			}
+		}
+
+		&__call-to-action {
+			display: block;
+			margin-top: 50px;
+			background-color: $body_background_darkest;
+			margin-left: -30px;
+			line-height: 1.7em;
+			color: $primary-color-light;
+			font-size: 15px;
+			text-align: center;
+			padding: 30px 0px 80px 0px;
+			background-image: url(/assets/img/icon-cta.svg);
+			background-repeat: no-repeat;
+			background-position: bottom 30px center;
+			transition: all 0.3s;
+
+			@include breakpoint(large) {
+				font-size: 17px;
+			}
+
+			&:hover {
+				color: #FFF;
+			}
+
+			span {
+				display: block;
+				margin-top: 20px;
+				font-size: 13px;
+				line-height: 1.5em;
+			}
+		}
+
+		&__contact {
+
+			padding-top: 20px;
+
+			div {
+
+			}
+			span {
+				display: block;
+				font-size: 15px;
+				margin-bottom: 15px;
 			}
 		}
 	}

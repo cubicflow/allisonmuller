@@ -16,7 +16,7 @@
 		{% include components/blog-header.html %}
 
     <div class="blog__content">
-      <div class="container">
+      <div class="blog__container">
         <div class="blog__body">
     		  {% for post in site.posts %}
             <div class="blog__post">
@@ -36,11 +36,27 @@
 
         <div class="blog__sidebar">
           <div class="blog__sidebar__categories">
-            <span>Categories</span>
+            <div class="blog__sidebar__title">Categories</div>
             {% for category in site.categories %}
               <a href="/blog/{{category | first}}/">{{ category | first | capitalize }}</a>
             {% endfor %}
           </div>
+
+					<a href="/services" class="blog__sidebar__call-to-action editable">
+						Litigation consultant.<br>
+						Expert Witness.<br>
+						Medical Writer.
+
+						<span>Services by<br>Acri Muller Consulting</span>
+					</a>
+
+					<div class="blog__sidebar__contact">
+						<div class="blog__sidebar__title">Contact Allison</div>
+						<span class="editable">Acri Muller Consulting, LLC.</span>
+						<span class="editable">(215) 593 5805</span>
+						<span class="editable">Allison@AcriMullerConsulting.com</span>
+					</div>
+
         </div>
       </div>
     </div>
