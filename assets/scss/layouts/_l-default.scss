@@ -104,7 +104,7 @@ body {
 		img {
 			width: 36px;
 
-			@include breakpoint(medium) {
+			@include breakpoint(large) {
 				width: 50px;
 				margin-top: 10px;
 			}
@@ -116,7 +116,7 @@ body {
 		position: absolute;
 		right: 0px;
 		top: 6px;
-		@include hide-for(medium);
+		@include hide-for(large);
 		opacity: 0.7;
 		transition: all 0.3s cubic-bezier(.8, .01, .56, .99);
 		cursor: pointer;
@@ -147,7 +147,7 @@ body {
 			opacity: 1;
 		}
 
-		@include breakpoint(medium){
+		@include breakpoint(large){
 			top: 18px;
 			right: 0px;
 		}
@@ -157,7 +157,7 @@ body {
 		}
 
 		&__label {
-			@include show-for(medium);
+			@include show-for(large);
 			font-family: $font-sans-bold;
 			font-size: 13px;
 
@@ -166,17 +166,17 @@ body {
 
 	&__list {
 
-		@include show-for(medium);
+		@include show-for(large);
 		@include grid-row;
-		width: 60%;
-		max-width: 500px;
+		width: 70%;
+		max-width: 700px;
 		margin-top: 17px;
 		padding: 0px;
 		text-align: center;
 		margin-left: 50px;
 
 		li {
-			@include grid-column(4);
+			@include grid-column(3);
 			list-style-type: none;
 			padding: 0px;
 			margin: 0px;
@@ -252,6 +252,11 @@ body {
 	&__icon {
 		margin-bottom: 30px;
 		margin-top: 20px;
+	}
+
+	.alone {
+		margin-top: 10px;
+		margin-bottom: 50px;
 	}
 
 }

@@ -1,0 +1,25 @@
+{% if paginator.total_pages > 1 %}
+<div class="paginator">
+
+  {% if paginator.previous_page %}
+    <a class="paginator__prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+      Prev Page
+    </a>
+  {% else %}
+    <a class="paginator__prev inactive">
+      Prev Page
+    </a>
+  {% endif %}
+
+  {% if paginator.next_page %}
+    <a class="paginator__next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+      Next Page
+    </a>
+  {% else %}
+    <a class="paginator__next inactive">
+      Next Page
+    </a>
+  {% endif %}
+
+</div>
+{% endif %}

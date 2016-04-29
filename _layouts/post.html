@@ -15,6 +15,8 @@
 
 		{% include components/blog-header.html %}
 
+    {% include components/blog-category-bar.html %}
+
     <div class="blog__content">
       <div class="container">
         <div class="blog__body">
@@ -32,14 +34,8 @@
             </div>
         </div>
 
-        <div class="blog__sidebar">
-          <div class="blog__sidebar__categories">
-            <span>Categories</span>
-            {% for category in site.categories %}
-              <a href="/blog/{{category | first}}">{{ category | first | capitalize }}</a>
-            {% endfor %}
-          </div>
-        </div>
+        {% include components/blog-sidebar.html %}
+
       </div>
     </div>
 

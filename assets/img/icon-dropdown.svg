@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="6px" height="4px" viewBox="0 0 6 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>subnav-dropdown</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Of-Interest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Of-Interest-XS" transform="translate(-240.000000, -356.000000)" fill="#F5F4F0">
+            <g id="subnav" transform="translate(0.000000, 333.000000)">
+                <g id="subnav-dropdown" transform="translate(240.000000, 23.000000)">
+                    <polygon id="dropdown--grey" points="0 0 6 0 3 4"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

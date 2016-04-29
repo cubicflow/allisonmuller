@@ -15,6 +15,8 @@ include:      [
 sass:
     sass_dir: 'assets/scss'
 
+version: 3.0.3
+
 # exclude from the conversion and from sitemap.xml
 exclude:      [
                 'node_modules',
@@ -49,7 +51,7 @@ gems:         [
 
 permalink: /blog/:year/:title/
 paginate_path: '/blog/page:num'
-paginate:      5
+paginate:      1
 
 jekyll-archives:
   enabled: [categories]

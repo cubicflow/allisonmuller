@@ -14,28 +14,21 @@ $(document).foundation();
 
 var toggleBtn = $('.toggle-btn');
 if(toggleBtn.length > 0){
-	
+
 	toggleBtn.on('click', function(){
-		
+
 		var idToToggle = $(this).attr('toggle-target');
-		
+
 		var moreLinkId = idToToggle + '-more'
-		
+
 		$(moreLinkId).fadeToggle('fast');
-		
+
 		$(idToToggle).toggleClass('active');
 		$(this).toggleClass('active');
-		
+
 	});
-	
-} else {
-	// no toggle btn
+
 }
-
-
-
-
-
 
 /// SMOOTH SCROLL FOR ANCHORS
 $('a[href^="#"]').on('click',function (e) {
@@ -52,3 +45,10 @@ $('a[href^="#"]').on('click',function (e) {
 });
 
 
+
+
+var categoryDropDown = document.querySelector('#category-dropdown');
+
+categoryDropDown.addEventListener('click', function(){
+	categoryDropDown.classList.toggle('active');
+});

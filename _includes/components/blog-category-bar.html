@@ -1,0 +1,12 @@
+<div class="blog__category-bar">
+  <div class="blog__category-bar__container">
+    <div class="blog__category-bar__dropdown" id="category-dropdown">
+      Categories <img src="/assets/img/icon-dropdown.svg">
+      <div>
+        {% for category in site.categories %}
+          <a href="/blog/{{category | first}}/">{{ category | first | capitalize }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

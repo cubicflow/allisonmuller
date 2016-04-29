@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>right-circle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Of-Interest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.7">
+        <g id="Of-Interest-XS" transform="translate(-358.000000, -2348.000000)" fill="#4E4D5C">
+            <g id="pagination" transform="translate(20.000000, 2348.000000)">
+                <path d="M347.8535,5.1465 C347.763,5.056 347.638,5 347.5,5 C347.224,5 347,5.224 347,5.5 C347,5.638 347.056,5.7635 347.1465,5.8535 L351.825,11 L347.1465,16.1465 C347.056,16.2375 347,16.3625 347,16.5 C347,16.7765 347.224,17 347.5,17 C347.638,17 347.763,16.9445 347.8535,16.8535 L352.8535,11.3535 C352.944,11.263 353,11.138 353,11 C353,10.8625 352.944,10.7375 352.8535,10.6465 L347.8535,5.1465 L347.8535,5.1465 Z M349,0 C342.925,0 338,4.925 338,11 C338,17.0755 342.925,22 349,22 C355.075,22 360,17.0755 360,11 C360,4.925 355.075,0 349,0 L349,0 Z M339,11 C339,5.4775 343.477,1 349,1 C354.523,1 359,5.4775 359,11 C359,16.523 354.523,21 349,21 C343.477,21 339,16.523 339,11 Z" id="right-circle" transform="translate(349.000000, 11.000000) rotate(-180.000000) translate(-349.000000, -11.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
