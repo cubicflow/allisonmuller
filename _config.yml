@@ -51,7 +51,7 @@ gems:         [
 
 permalink: /blog/:year/:title/
 paginate_path: '/blog/page:num'
-paginate:      1
+paginate:      5
 
 jekyll-archives:
   enabled: [categories]
