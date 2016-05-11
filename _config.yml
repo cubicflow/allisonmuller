@@ -15,7 +15,7 @@ include:      [
 sass:
     sass_dir: 'assets/scss'
 
-version: 3.0.3
+version: 2.5.3
 
 # exclude from the conversion and from sitemap.xml
 exclude:      [
