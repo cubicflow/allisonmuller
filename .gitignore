@@ -1,8 +1,12 @@
 # Stylesheet
 assets/css/app.css
 
+
+# Design
+design/
+
 # JavaScript
-assets/js/all.js
+# assets/js/all.js
 assets/js/all-min.js
 
 # Cache
@@ -41,10 +45,13 @@ npm-debug.log
 _site
 
 # Vendor directory
-assets/vendor/
+# assets/vendor/
+assets/vendor/**/*.html
+assets/vendor/**/*.htm
 
 # Ruby
 Gemfile.lock
 
 # Composer
 composer.lock
+
