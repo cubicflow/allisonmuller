@@ -20,7 +20,7 @@
     <div class="blog__content">
       <div class="container">
         <div class="blog__body">
-    		  {% for post in page.posts %}
+    		  {% for post in site.categories[page.category] %}
             <div class="blog__post">
               <h2><a href="{{post.url}}">{{post.title}}</a></h2>
               <span class="blog__post__date">{{post.date | date: '%B %d, %Y'}}</span>

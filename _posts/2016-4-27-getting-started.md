@@ -3,8 +3,14 @@ layout: post
 title: "Getting Started With Markdown"
 published: true
 categories:
-  - jekyll
-  - drugs
+  - toxicology
+  - drug and alcohol impairment
+  - medical education
+  - medication adverse effects
+  - pediatric drug safety
+  - oncology drugs
+  - consultant life
+  - uncategorized
 tags:
 ---
 

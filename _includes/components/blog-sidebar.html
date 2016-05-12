@@ -2,7 +2,7 @@
   <div class="blog__sidebar__categories">
     <div class="blog__sidebar__title">Categories</div>
     {% for category in site.categories %}
-      <a href="/blog/{{category | first}}/">{{ category | first | capitalize }}</a>
+      <a href="/blog/{{category | first | slugify}}/">{{ category | first | capitalize }}</a>
     {% endfor %}
   </div>
 
