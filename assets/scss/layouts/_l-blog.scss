@@ -72,6 +72,11 @@
 			text-align: center;
 		}
 
+		ul, ol {
+			list-style-position: outside;
+			margin-left: 1.25em;
+		}
+
 	}
 
 	&__post {
