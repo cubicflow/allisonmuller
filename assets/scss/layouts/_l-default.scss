@@ -115,7 +115,7 @@ body {
 	&__expand {
 		position: absolute;
 		right: 0px;
-		top: 6px;
+		top: 5px;
 		@include hide-for(large);
 		opacity: 0.7;
 		transition: all 0.3s cubic-bezier(.8, .01, .56, .99);

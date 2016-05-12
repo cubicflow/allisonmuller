@@ -88,7 +88,11 @@
 			font-size: 10px;
 			font-family: $font-sans-bold;
 			margin-bottom: 40px;
-			margin-top: -15px;
+			margin-top: 0px;
+
+			@include breakpoint(medium){
+				margin-top: -10px;
+			}
 		}
 
 		&__categories {
@@ -174,7 +178,8 @@
 			}
 
 			&:hover {
-				color: #FFF;
+				color: $primary-color-light;
+				background-color: #2a2b2f;
 			}
 
 			span {
@@ -196,6 +201,24 @@
 				display: block;
 				font-size: 15px;
 				margin-bottom: 15px;
+			}
+
+
+			a {
+				display: block;
+				text-align: center;
+				font-size: 15px;
+				margin-left: -20px;
+
+				img {
+
+					display: block;
+					margin: 50px auto 20px auto;
+				}
+
+				&:hover {
+					color: $body-background-darkest;
+				}
 			}
 		}
 	}
@@ -234,7 +257,7 @@
 
 			div {
 
-				background-color: fade-out($primary-color, 0.2);
+				background-color: fade-out($primary-color, 0.1);
 				width: 200px;
 				margin-left: -10px;
 				position: absolute;

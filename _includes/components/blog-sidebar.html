@@ -19,6 +19,14 @@
     <span class="editable">Acri Muller Consulting, LLC.</span>
     <span class="editable">(215) 593 5805</span>
     <span class="editable">Allison@AcriMullerConsulting.com</span>
+
+    {% assign pages = site.pages | where:"title","Contact" %}
+    {% for page in pages %}
+      <a href="{{page.vcard_path}}">
+        <img src="/assets/img/icon-vcard.svg">
+        Download vCard
+      </a>
+    {% endfor %}
   </div>
 
 </div>
