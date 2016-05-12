@@ -9,4 +9,4 @@ categories:
 ---
 
 
-Just Testing the dynamic categoryfunctionality
+Just testing the dynamic category picker
