@@ -4,12 +4,12 @@ title: Test Post
 published: true
 categories:
   - toxicology
-  - drug and alcohol impairment
-  - medical education
-  - medication adverse effects
-  - pediatric drug safety
-  - oncology drugs
-  - consultant life
-  - uncategorized
 tags:
 ---
+
+
+Quick test post via the Cloud Cannon visual editor.&nbsp;
+
+![](/uploads/versions/siteicon---x----561-534x---.png)
+
+Heres a cool icon.
