@@ -22,7 +22,7 @@
     <span class="editable">(215) 593 5805</span>
     <span class="editable">Allison@AcriMullerConsulting.com</span>
 
-    {% assign pages = site.pages | where:"title","Contact" %}
+    {% assign pages = site.pages | where:"permalink","/contact/" %}
     {% for page in pages %}
       <a href="{{page.vcard_path}}">
         <img src="/assets/img/icon-vcard.svg">
