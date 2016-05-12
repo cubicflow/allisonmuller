@@ -1,8 +1,10 @@
 <div class="blog__sidebar">
   <div class="blog__sidebar__categories">
     <div class="blog__sidebar__title">Categories</div>
-    {% for category in site.categories %}
-      <a href="/blog/{{category | first | slugify}}/">{{ category | first | capitalize }}</a>
+    {% for category in site.saved_categories %}
+      {% if site.categories[category] %}
+      <a href="/blog/{{category | slugify}}/">{{ category | capitalize }}</a>
+      {% endif %}
     {% endfor %}
   </div>
 

@@ -3,8 +3,10 @@
     <div class="blog__category-bar__dropdown" id="category-dropdown">
       Categories <img src="/assets/img/icon-dropdown.svg">
       <div>
-        {% for category in site.categories %}
-          <a href="/blog/{{category | first}}/">{{ category | first | capitalize }}</a>
+        {% for category in site.saved_categories %}
+          {% if site.categories[category] %}
+          <a href="/blog/{{category | slugify}}/">{{ category | capitalize }}</a>
+          {% endif %}
         {% endfor %}
       </div>
     </div>

@@ -4,14 +4,6 @@ title: "Getting Started With Markdown"
 published: true
 categories:
   - toxicology
-  - drug and alcohol impairment
-  - medical education
-  - medication adverse effects
-  - pediatric drug safety
-  - oncology drugs
-  - consultant life
-  - uncategorized
-tags:
 ---
 
 Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *
