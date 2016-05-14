@@ -8,7 +8,7 @@ categories:
 
 Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or \*
 
-{% include youtubePlayer.html id=ib2Pt9_zciA %}
+{% include youtubeplayer.html id=ib2Pt9_zciA %}
 
 Take a look at this post inside the CloudCannon markdown editor to get a quick feel for it. If markdown initially seems too daunting, you can always use the Visual Editor instead.
 
