@@ -18,4 +18,8 @@ The VIDEO-ID can be obtained easily in a number of ways straight from the videos
 
 Heres a working example of a embed shortcode with the VIDEO-ID from the above screenshot
 
-`{% include youtubeplayer.html id=VIDEO-ID %}`
+{% include youtubeplayer.html id=VIDEO-ID %}
+
+
+Hope that gets you up and running with videos!
+
