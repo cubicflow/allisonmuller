@@ -10,11 +10,7 @@ Markdown is a way to style text on the web. You control the display of the docum
 
 {% include youtubePlayer.html id=ib2Pt9_zciA %}
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/aw-mDttDHag?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
-
 Take a look at this post inside the CloudCannon markdown editor to get a quick feel for it. If markdown initially seems too daunting, you can always use the Visual Editor instead.
-
-asdasdasdasd
 
 ## Emphasis.
 
