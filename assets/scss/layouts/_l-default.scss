@@ -376,12 +376,21 @@ body {
 		font-family: $font-sans-bold;
 		font-size: 15px;
 		height: 180px;
-		line-height: 180px;
+		line-height: 2em;
 		@include grid-column(6);
+		position: relative;
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
 		transition: all 0.3s;
 
 		&:hover {
 			color: #FFF;
+		}
+
+		span {
+
 		}
 
 

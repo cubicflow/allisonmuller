@@ -49,6 +49,8 @@ $('a[href^="#"]').on('click',function (e) {
 
 var categoryDropDown = document.querySelector('#category-dropdown');
 
-categoryDropDown.addEventListener('click', function(){
-	categoryDropDown.classList.toggle('active');
-});
+if (categoryDropDown){
+	categoryDropDown.addEventListener('click', function(){
+		categoryDropDown.classList.toggle('active');
+	});
+}
