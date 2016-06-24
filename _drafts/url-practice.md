@@ -6,4 +6,8 @@ categories:
 ---
 
 
-I gave one of my bread-and-butter toxicology lectures for attorneys at the Jenkins Law Library in Philadelphia this month. They filmed the CLE course ({% include youtubeplayer.html id="TtfyC1C53Tg" %})so it can be viewed at your leisure.
+I gave one of my bread-and-butter toxicology lectures for attorneys at the Jenkins Law Library in Philadelphia this month. They filmed the CLE course so it can be viewed at your leisure.
+
+{% include youtubeplayer.html id="TtfyC1C53Tg" %}
+
+&nbsp;
