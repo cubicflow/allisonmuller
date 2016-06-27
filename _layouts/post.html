@@ -23,7 +23,7 @@
             <div class="blog__post">
               <h1><a href="{{post.url}}">{{page.title}}</a></h1>
               <span class="blog__post__date">{{page.date | date: '%B %d, %Y'}}</span>
-              {{page.content | markdownify}}
+              {{page.content}}
 
               <div class="blog__post__categories">
                 {% for category in page.categories %}
