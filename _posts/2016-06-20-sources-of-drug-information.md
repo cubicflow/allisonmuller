@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sources of Drug Information
+title: Sources of drug information
 categories:
   - toxicology
 ---
