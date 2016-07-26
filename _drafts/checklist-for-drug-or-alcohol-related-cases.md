@@ -1,10 +1,10 @@
 ---
 layout: post
-title: What Information Should Attorneys Have at Their Fingertips for Drug or Alcohol-Related Cases
+title: What Information Should Attorneys Have at Their Fingertips for Drug and Alcohol-Related Cases
 categories:
   - toxicology
   - drug and alcohol impairment
 ---
 
 
-There are some basic, although not always on-hand, details of a drug or alcohol-related legal case (usually related to impairment), that can answer questions related to the case sooner than later. Thank you to those attorneys who have contacted me about their interesting cases and prompted me to put [this checklist of facts-to-have on drug and alcohol-related cases](/handout for attendees fact checklist for drug and alcohol cases muller.pdf)&nbsp;together.
+There are some basic, although not always on-hand, details of a drug or alcohol-related legal case (usually related to impairment), that can answer questions related to the case sooner than later. Thank you to those attorneys who have contacted me about their interesting cases and prompted me to put [this checklist of facts-to-have on drug and alcohol-related cases](/handout for attendees fact checklist for drug and alcohol cases muller.pdf) together.
