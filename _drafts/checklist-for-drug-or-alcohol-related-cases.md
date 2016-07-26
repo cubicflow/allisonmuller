@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What Information Should Attorneys Have at Their Fingertips for Drug and Alcohol-Related Cases
+title: 'Drug and Alcohol-Related Cases: What Information Should Attorneys Have at Their Fingertips?'
 categories:
   - toxicology
   - drug and alcohol impairment
