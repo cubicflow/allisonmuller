@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Checklist for Drug or Alcohol-Related Cases
+title: What Information Should Attorneys Have at Their Fingertips for Drug or Alcohol-Related Cases
 categories:
-  - drug and alcohol impairment
   - toxicology
+  - drug and alcohol impairment
 ---
 
 
