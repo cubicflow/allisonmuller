@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Toxicology 101 CLE course
+title: '"Toxicology 101" CLE Course'
 categories:
   - toxicology
 ---
