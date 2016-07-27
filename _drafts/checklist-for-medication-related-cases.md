@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Checklist for Medication-Related Cases
+title: Questions to Ask When Reviewing Medication-Related Cases
 categories:
   - toxicology
   - medication adverse effects
