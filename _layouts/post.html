@@ -19,7 +19,9 @@
 
     <div class="blog__content">
       <div class="container">
+
         <div class="blog__body">
+
             <div class="blog__post">
               <h1><a href="{{post.url}}">{{page.title}}</a></h1>
               <span class="blog__post__date">{{page.date | date: '%B %d, %Y'}}</span>
@@ -32,6 +34,9 @@
               </div>
 
             </div>
+
+						{% include components/newsletter-signup.html %}
+
         </div>
 
         {% include components/blog-sidebar.html %}
