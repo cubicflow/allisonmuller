@@ -8,6 +8,7 @@
     {% endfor %}
   </div>
 
+  {% if page.layout == 'post' %}
   <a href="/services" class="blog__sidebar__call-to-action editable">
     Litigation Consultant.<br />
     Expert Witness.<br />
@@ -15,6 +16,18 @@
 
     <span>Services by<br />Acri Muller Consulting</span>
   </a>
+  {% endif %}
+
+  {% if page.layout == 'blog' %}
+    {% include components/newsletter-signup--blog-sidebar.html %}
+    <a href="/services" class="blog__sidebar__call-to-action editable">
+      Litigation Consultant.<br />
+      Expert Witness.<br />
+      Medical Writer.
+
+      <span>Services by<br />Acri Muller Consulting</span>
+    </a>
+  {% endif %}
 
   <div class="blog__sidebar__contact">
     <div class="blog__sidebar__title">Contact Dr. Allison Muller</div>

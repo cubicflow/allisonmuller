@@ -37,3 +37,26 @@
 	}
 
 }
+
+.newsletter-signup-sidebar {
+	border-top: 1px solid transparentize($primary-color, 0.7);
+	// border-bottom: 1px solid transparentize($primary-color, 0.7);
+	// padding-bottom: 1.8rem;
+	margin-top: 2.8rem;
+	padding-top: 1rem;
+	text-align: left;
+	font-size: 15px;
+	color: $dark-gray;
+
+	&__form {
+		margin: 0px auto;
+		width: 100%;
+		margin-top: 1.8rem;
+	}
+
+	&__submit {
+		margin-top: 1rem;
+	}
+
+
+}

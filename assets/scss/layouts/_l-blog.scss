@@ -152,7 +152,7 @@
 			display: block;
 			margin-top: 30px;
 			margin-bottom: 20px;
-			color: #A1A2A7;
+			color: $dark-gray;
 			font-size: 19px;
 		}
 
@@ -175,7 +175,7 @@
 			display: block;
 			margin-top: 50px;
 			background-color: $body_background_darkest;
-			margin-left: -30px;
+			// margin-left: -30px;
 			line-height: 1.7em;
 			color: $primary-color-light;
 			font-size: 15px;
@@ -185,6 +185,7 @@
 			background-repeat: no-repeat;
 			background-position: bottom 30px center;
 			transition: all 0.3s;
+			border-radius: 8px;
 
 			@include breakpoint(large) {
 				font-size: 17px;
