@@ -305,6 +305,9 @@
 	height: 22px;
 	font-family: $font-sans-bold;
 	font-size: 12px;
+	margin-top: 2.8rem;
+	padding-top: 50px;
+	border-top: 1px solid transparentize($primary-color, 0.7);
 
 	a {
 		color: fade-out($body-background-dark, 0.3);
