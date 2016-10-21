@@ -6,24 +6,26 @@
 	{% include meta.html %}
 
 </head>
-	
+
 <body>
 
 	{% include components/nav.html %}
 
 	<main class="page">
-		
+
 		{% include components/header.html %}
-		
+
 		{{ content }}
-		
+
 	</main>
 
+	{% include components/whitepaper-signup.html %}
+
 	{% include components/pages-grid.html %}
-	
+
 	{% include components/footer.html %}
-	
-	{% include foot.html %} 
-	
+
+	{% include foot.html %}
+
 </body>
 </html>

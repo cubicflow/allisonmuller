@@ -342,37 +342,37 @@
 	}
 }
 
-.newsletter-subscribe {
-	border-top: 1px solid transparentize($primary-color, 0.7);
-	text-align: center;
-	// padding-bottom: 1.8rem;
-
-	img {
-		margin-top: 2.5rem;
-	}
-
-	h1,h2,h3,h4,h5 {
-		color: $dark-gray;
-	}
-
-	h5 {
-		margin-top: 2em;
-		margin-bottom: 2em;
-	}
-
-	&__form {
-		margin: 0px auto;
-		width: 95%;
-		max-width: 360px;
-
-		@include breakpoint(medium) {
-			width: 50%;
-			max-width: 50%;
-		}
-	}
-
-	&__submit {
-		margin-top: 1.8rem;
-	}
-
-}
+// .newsletter-subscribe {
+// 	border-top: 1px solid transparentize($primary-color, 0.7);
+// 	text-align: center;
+// 	// padding-bottom: 1.8rem;
+//
+// 	img {
+// 		margin-top: 2.5rem;
+// 	}
+//
+// 	h1,h2,h3,h4,h5 {
+// 		color: $dark-gray;
+// 	}
+//
+// 	h5 {
+// 		margin-top: 2em;
+// 		margin-bottom: 2em;
+// 	}
+//
+// 	&__form {
+// 		margin: 0px auto;
+// 		width: 95%;
+// 		max-width: 360px;
+//
+// 		@include breakpoint(medium) {
+// 			width: 50%;
+// 			max-width: 50%;
+// 		}
+// 	}
+//
+// 	&__submit {
+// 		margin-top: 1.8rem;
+// 	}
+//
+// }
