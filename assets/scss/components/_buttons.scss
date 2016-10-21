@@ -1,0 +1,38 @@
+// --------------------------------------------------
+// Buttons
+// --------------------------------------------------
+
+.button-pill {
+	display: inline-block;
+	height: 36px;
+	line-height: 37px;
+	border-radius: 18px;
+	padding: 0px 15px;
+	transition: all 0.3s;
+	text-transform: uppercase;
+	font-family: $font-sans-bold;
+	font-size: 10px;
+
+	&--outline-blue {
+	color: $primary-color-light;
+	border: 1px solid $primary-color-light;
+	background-color: transparent;
+
+		&:hover {
+			color: $white;
+			background-color: $primary-color-light;
+		}
+	}
+
+	&--outline-dark-gray {
+	color: $dark-gray;
+	border: 1px solid $dark-gray;
+	background-color: transparent;
+
+		&:hover {
+			color: $white;
+			background-color: $dark-gray;
+		}
+	}
+
+}

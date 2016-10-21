@@ -82,16 +82,22 @@
 @import "layouts/l-post";
 
 //
-// 8. Modules
+// 8. Components
+// --------------------------------------------------
+@import "components/forms";
+@import "components/buttons";
+
+//
+// 9. Modules
 // --------------------------------------------------
 @import "modules/m-your-module";
 
 //
-// 9. State
+// 10. State
 // --------------------------------------------------
 @import "states/s-your-module";
 
 //
-// 10. Theme
+// 11. Theme
 // --------------------------------------------------
 @import "themes/theme";
