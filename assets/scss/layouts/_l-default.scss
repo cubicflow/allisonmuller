@@ -542,11 +542,11 @@ body {
 
 	&__icon {
 		display: block;
-		margin: 20px auto 60px auto;
+		margin: 20px auto 50px auto;
 	}
 
 	&__info {
-		@extend .font-size-large;
+		@extend .font-size-regular;
 		margin-bottom: 40px;
 	}
 
