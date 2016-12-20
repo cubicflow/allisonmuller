@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Medication misadventures: 10 tips for attorneys'
+title: 'Medication misadventures: 10 tips for attorneys: Philadelphia CLE program'
 categories:
   - medication adverse effects
   - toxicology
