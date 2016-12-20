@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Medication Misadventures: 10 Tips for Attorneys (Jenkins Law Library, Philadelphia: December 19, 2016)'
+title: '"Medication Misadventures: 10 Tips for Attorneys" CLE Course'
 categories:
   - uncategorized
 ---
