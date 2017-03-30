@@ -7,4 +7,4 @@ categories:
 ---
 
 
-Toxicology reports can be tricky to interpret. There are some basic pearls that can help attorneys sort through the details before calling in an expert to shed some light on what the results mean (or don't mean). Five minutes of light reading is a start to understanding [the basics of toxicology testing](/toxicology testing for attorneys a a muller.pdf).
+Toxicology reports can be tricky to interpret. There are some basic pearls that can help attorneys sort through the details before calling in an expert to shed some light on what the results mean (or don't mean). Five minutes of light reading is a start to understanding [the basics of toxicology testing](/Basics of Toxicology Testing.pdf).
