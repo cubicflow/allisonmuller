@@ -2,7 +2,8 @@
 layout: post
 title: 'Medication-Related Cases: 5 Questions for Attorneys to Ponder'
 categories:
-  - uncategorized
+  - medication adverse effects
+  - pediatric drug safety
 ---
 
 There are some scenarios that may send red flags up that harm to a patient occurred due to a medication. The simplest (but unfortunately, least likely) scenario is when a healthy patient, taking no other medications, says “I just started taking this medication and as soon as I started taking it, something went wrong”. And, the “what went wrong” part has been well-documented in the medical literature. But harm from medications is not usually that easy to sort-out.&nbsp;
