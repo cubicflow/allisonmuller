@@ -29,8 +29,12 @@
 			padding-right: 10px;
 			background-color: transparentize($dark-gray, 0.6);
 			border: 1px solid transparentize($primary-color-light, 0.5);
-			color: $light-gray;
-			text-align: center;
+      color: $light-gray;
+      text-align: center;
+
+      &::placeholder {
+        color: #e6e6e6;
+      }
 
 			&:focus {
 				background-color: transparentize($dark-gray, 0.6);

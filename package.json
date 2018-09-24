@@ -4,7 +4,9 @@
   "description": "Starting point for a Jekyll site that uses Zurb Foundation's Sass.",
   "license": "MIT",
   "main": "gulpfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "eslint": "^5.6.0"
+  },
   "devDependencies": {
     "browser-sync": "^2.10.0",
     "gulp": "^3.9.0",
