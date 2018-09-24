@@ -12,7 +12,11 @@
 			background-color: transparentize($dark-gray, 0.9);
 			border: 1px solid transparentize($primary-color-light, 0.5);
 			color: $dark-gray;
-			text-align: center;
+      text-align: center;
+      
+      &::placeholder {
+        color: $dark-gray;
+      }
 
 			&:focus {
 				background-color: transparentize($dark-gray, 0.9);
@@ -33,7 +37,7 @@
       text-align: center;
 
       &::placeholder {
-        color: #e6e6e6;
+        color: $white;
       }
 
 			&:focus {
