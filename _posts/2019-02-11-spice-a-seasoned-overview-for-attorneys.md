@@ -2,7 +2,8 @@
 layout: post
 title: 'Spice: A Seasoned Overview for Attorneys'
 categories:
-  - uncategorized
+  - toxicology
+  - drug and alcohol impairment
 ---
 
 Lately I’ve been presented with several legal cases involving “Spice”. A person may have used Spice and was involved in a criminal-related case or presented to medical care for the treatment of symptoms related to Spice. This is not a new street drug, as recreational use of Spice in the United States started in 2009. But due to Spice's evolving presentation and misconceptions about its properties, this drug’s toxicology warrants an introduction and review for attorneys.
