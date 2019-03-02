@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Opioids: Fiver Facts for Attorneys'
+title: 'Opioids: Five Facts for Attorneys'
 categories:
   - toxicology
   - drug and alcohol impairment
