@@ -7,7 +7,7 @@ categories:
   - medication adverse effects
 ---
 
-More now than ever, I am consulted as a toxicologist to opine on criminal and civil cases that involve opioids (prescription and illicit). Although there are countless case-specific questions, there are a few facts to give attorneys insight into their opioid-related cases from a scientific-perspective. There are actually more than a few facts (and lots of science to explain!) so I am looking forward to presenting a one-hour continuing legal education talk in June at the [2019 Pennsylvania Bar Institute Criminal Law Symposium](http://www.pbi.org/Meetings/Meeting.aspx?ID=29525) entitled “Opioids: A Primer in Toxicology for Attorneys”.
+More now than ever, I am consulted as a toxicologist to opine on criminal and civil cases that involve opioids (prescription and illicit). Although there are countless case-specific questions, there are a few facts to give attorneys insight into their opioid-related cases from a scientific-perspective. There are actually more than a few facts (and lots of science to explain\!) so I am looking forward to presenting a one-hour continuing legal education talk in June at the 2019 Pennsylvania Bar Institute Criminal Law Symposium entitled “Opioids: A Primer in Toxicology for Attorneys”.
 
 Just to shed light on some terminology, *opiates* are compounds derived from the opium poppy plant, namely morphine and codeine. (Side note: who said natural products were necessarily safe? That’s a topic for another time.) *Opioids* are synthetic (eg, fentanyl) or semi-synthetic drugs (eg, heroin, oxycodone, hydrocodone). However, the term opioid is now used to encompass both of these families of drugs that bind to opioid receptors in the body.
 
