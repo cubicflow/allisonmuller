@@ -8,4 +8,4 @@ categories:
 
 This short video summarizes some key points about drug testing so attorneys can understand what results from these tests may or may not be able to tell them.
 
-{% include youtubeplayer.html id="<strong>PJRdHFFYk3k&amp;t=7s</strong>" %}
+{% include youtubeplayer.html id="PJRdHFFYk3k&amp;t=7s" %}
