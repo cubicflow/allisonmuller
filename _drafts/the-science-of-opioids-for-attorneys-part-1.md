@@ -7,4 +7,8 @@ categories:
   - toxicology
 ---
 
-The science behind opioids is complex but there are a few key points for attorneys to know for their opioid-related cases (eg, medical malpractice, personal injury, criminal cases). This video is the first in a series of tutorials about the science of opioids...
+The science behind opioids is complex but there are a few key points for attorneys to know for their opioid-related cases (eg, medical malpractice, personal injury, criminal cases). This video is the first in a series of tutorials about the science of opioids…
+
+`{% include youtubeplayer.html id=XHhfaHvkqMA&amp;t=2s%}`
+
+&nbsp;
