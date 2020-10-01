@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: 'Sources of Drug Information: A Basic List for the Attorney'
 categories:
   - toxicology

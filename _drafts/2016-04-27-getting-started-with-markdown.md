@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: Getting Started With Markdown
 categories:
   - toxicology

@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: Embedding Videos
 categories:
   - uncategorized

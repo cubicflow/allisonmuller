@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: 'Getting Started in Continuing Medical Education: Tips for the Medical Writer and the Pharmacy Student'
 categories:
   - medical education

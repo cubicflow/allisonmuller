@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: 'Naloxone: An Antidote in the News'
 categories:
   - toxicology

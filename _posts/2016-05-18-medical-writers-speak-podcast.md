@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: '"Medical Writers Speak" Podcast'
 categories:
   - medical education

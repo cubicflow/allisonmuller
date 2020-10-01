@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: '"Toxicology 101 for Attorneys" CLE lecture'
 categories:
   - toxicology

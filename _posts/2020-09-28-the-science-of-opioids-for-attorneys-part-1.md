@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: 'The Science of Opioids for Attorneys: Part 1'
 categories:
   - drug and alcohol impairment

@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: Highlights of Drug Testing for Attorneys
 categories:
   - drug and alcohol impairment

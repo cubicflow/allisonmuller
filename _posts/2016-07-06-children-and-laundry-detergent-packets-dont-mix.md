@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: "Children and Laundry Detergent Packets Don't Mix"
 categories:
   - toxicology

@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: Questions to Ask When Reviewing Medication-Related Cases
 categories:
   - toxicology

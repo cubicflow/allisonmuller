@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: 'Toxicology Testing for Attorneys: The Basics'
 categories:
   - drug and alcohol impairment

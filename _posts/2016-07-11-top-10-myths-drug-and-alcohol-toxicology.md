@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: 'Top 10 Myths: Drug and Alcohol Toxicology'
 categories:
   - toxicology

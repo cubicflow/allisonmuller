@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: 'Spice: A Seasoned Overview for Attorneys'
 categories:
   - toxicology

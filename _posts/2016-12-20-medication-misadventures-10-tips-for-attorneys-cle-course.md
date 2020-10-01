@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: '"Medication Misadventures: 10 Tips for Attorneys" CLE Course'
 categories:
   - medication adverse effects

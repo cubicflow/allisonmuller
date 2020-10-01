@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: 'Medication-Related Cases: 5 Questions for Attorneys to Ponder'
 categories:
   - medication adverse effects

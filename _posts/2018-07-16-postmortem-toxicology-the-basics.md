@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: 'Postmortem Toxicology: The Basics'
 categories:
   - toxicology

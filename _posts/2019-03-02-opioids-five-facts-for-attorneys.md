@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: 'Opioids: Five Facts for Attorneys'
 categories:
   - toxicology

@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: 'Naloxone: The Antidote to the Opioid Epidemic? What Lawyers Need to Know'
 categories:
   - toxicology

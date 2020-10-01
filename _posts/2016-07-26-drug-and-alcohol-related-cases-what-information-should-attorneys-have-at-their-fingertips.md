@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: 'Drug and Alcohol-Related Cases: What Information Should Attorneys Have at Their Fingertips?'
 categories:
   - toxicology
