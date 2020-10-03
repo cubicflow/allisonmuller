@@ -7,8 +7,8 @@ categories:
   - toxicology
 ---
 
-&nbsp;
+Stay tuned for my one-hour CLE talk "Marijuana and Synthetic Cannabinoids: High-lights for Attorneys". In the meantime, here is a short video that provides insight into what is measured when assessing marijuana use and impairment.
+
+`{% include youtubeplayer.html id=</code>TmZWLmn8Bu<code>%}`
 
 &nbsp;
-
-TmZWLmn8Buo
