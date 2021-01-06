@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: >-
   Interview with Legal Nurse Consultant Kelly Campbell: The Toxicology Expert
   Witness
