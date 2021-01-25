@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: >-
   Evaluating Medication-Related Medical Malpractice Cases: Toxicology Tips for
   Attorneys
