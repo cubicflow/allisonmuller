@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Cannabidiol (CBD)
 categories:
   - drug and alcohol impairment
