@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 title: Cannabidiol (CBD)
 categories:
   - drug and alcohol impairment
@@ -14,4 +14,4 @@ There are three types of CBD products: full-spectrum (contains many cannabinoids
 
 Drug tests for marijuana use look for THC (active parent drug) and/or THC metabolites (ie, breakdown products) in the blood or urine. Patients using a CBD product may test positive for marijuana use depending on how much THC is in their CBD product, the minimum detection threshold of the drug test, how efficiently they metabolize and eliminate THC, and how often they use the product. I've encountered situations where someone is using CBD, not marijuana, and tests positive for marijuana use. But wait…CBD isn't "marijuana", and there wasn't a "high". So why did the CBD-user test positive? This is because the CBD product contained THC in some quantity, and although not enough to give a "high", it was enough to trip a drug screen. CBD users need to be aware of this if they are subject to drug testing for employment, custody dispute resolution, or otherwise.&nbsp;
 
-[\#cannabis](https://www.linkedin.com/feed/hashtag/?keywords=cannabis&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6821173341391519744)&nbsp;[\#cbd](https://www.linkedin.com/feed/hashtag/?keywords=cbd&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6821173341391519744)&nbsp;[\#employmentlaw](https://www.linkedin.com/feed/hashtag/?keywords=employmentlaw&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6821173341391519744)&nbsp;[\#divorcelaw](https://www.linkedin.com/feed/hashtag/?keywords=divorcelaw&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6821173341391519744)&nbsp;[\#expertwitness](https://www.linkedin.com/feed/hashtag/?keywords=expertwitness&amp;highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6821173341391519744)
+\#cannabis \#cbd \#employmentlaw \#divorcelaw \#expertwitness
