@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Beach Trip: Leave the Benzene at Home'
 categories:
   - toxicology
